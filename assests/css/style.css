@@ -1,0 +1,439 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+
+}
+
+body{
+  overflow-y: hidden;
+}
+
+/*
+========================================
+Start Basic Setup
+========================================
+*/
+
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+a,
+span,
+label{
+  display: inline-block;
+}
+
+a,
+a:focus{
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+button:focus,
+input:focus,
+textarea:focus{
+  outline: 0;
+  border: 0;
+}
+
+button{
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+p,
+hr{
+  margin: 0;
+  padding: 0;
+}
+
+/*
+========================================
+End Basic Setup
+========================================
+*/
+
+/*
+========================================
+Start Font Size
+========================================
+*/
+
+.font-size-13{
+  font-size:13px;
+}
+
+.font-size-14{
+  font-size:14px;
+}
+
+.font-size-15{
+  font-size:15px;
+}
+
+.font-size-16{
+  font-size:16px;
+}
+
+.font-size-18{
+  font-size:18px;
+}
+
+.font-size-20{
+  font-size:20px;
+}
+
+.font-size-23{
+  font-size:23px;
+}
+
+.font-size-24{
+  font-size:24px;
+}
+
+.font-size-30{
+  font-size:30px;
+}
+
+.font-size-60{
+  font-size:60px;
+}
+
+/*
+========================================
+End Font Size
+========================================
+*/
+
+/*
+========================================
+Start Font Color
+========================================
+*/
+
+.font-color-f4{
+  color:#f4f8ff;
+}
+
+.font-color-f2{
+  color:#f2f7ff;
+}
+
+.font-color-00{
+  color:#000000;
+}
+
+.font-color-33{
+  color:#333333;
+}
+
+.font-color-08{
+  color:#080808;
+}
+
+.font-color-01{
+  color:#010101;
+}
+
+.font-color-66{
+  color:#666666;
+}
+
+.font-color-ab{
+  color:#AB0534;
+}
+
+.font-color-ed{
+  color:#ED8000;
+}
+
+.font-color-4c{
+  color:#4c4c4c;
+}
+
+.font-color-4d{
+  color:#4d4d4d;
+}
+
+
+
+/*
+========================================
+End Font Color
+========================================
+*/
+
+/*
+========================================
+Start Background Color
+========================================
+*/
+
+.bg-color-ab{
+  background:#AB0534;
+}
+
+.bg-color-f4{
+  background:#F4F8FF;
+}
+
+.bg-color-ff{
+  background:#FFFFFF;
+}
+
+.bg-color-f7{
+  background:#F7F9FA;
+}
+
+.bg-color-29{
+  background:#292662;
+}
+
+/*
+========================================
+End Background Color
+========================================
+*/
+
+/*
+========================================
+Start Reusable Components
+========================================
+*/
+/*
+========================================
+End Reusable Components
+========================================
+*/
+
+/*
+====================
+Start Preloader
+====================
+*/
+
+.preloader {
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    z-index: 99999;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #fff;
+}
+
+/*
+====================
+End Preloader
+====================
+*/
+
+/*
+========================================
+Start Header Section Css
+========================================
+*/
+
+.nav{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.hero-content a{
+  padding:28px 60px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius:30px;
+}
+
+/*
+========================================
+End Header Section Css
+========================================
+*/
+
+/*
+========================================
+Start Header Section Css
+========================================
+*/
+/*
+========================================
+End Header Section Css
+========================================
+*/
+
+/*
+========================================
+Start Header Section Css
+========================================
+*/
+/*
+========================================
+End Header Section Css
+========================================
+*/
+
+/*
+========================================
+Start Header Section Css
+========================================
+*/
+/*
+========================================
+End Header Section Css
+========================================
+*/
+
+/*
+========================================
+Start Header Section Css
+========================================
+*/
+/*
+========================================
+End Header Section Css
+========================================
+*/
+
+/*
+========================================
+Start Header Section Css
+========================================
+*/
+/*
+========================================
+End Header Section Css
+========================================
+*/
+
+/*
+========================================
+Start Header Section Css
+========================================
+*/
+/*
+========================================
+End Header Section Css
+========================================
+*/
+
+/*
+===================================
+Start Scroll to Top 
+===================================
+*/
+
+.scroll-top{
+    display: none;
+    position: fixed;
+    right: 30px;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3px;
+    line-height: 40px;
+    text-align: center;
+    background: #f54748;
+    bottom: 40px;
+}
+
+/* Bob */
+
+@-webkit-keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  50% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  100% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+@keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  50% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  100% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+@-webkit-keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+.hvr-bob {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .4s, 1.5s;
+  animation-duration: .4s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+
+/*
+===================================
+End Scroll to Top 
+===================================
+*/
