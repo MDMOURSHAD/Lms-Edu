@@ -448,11 +448,6 @@ Margin Top, Bottom
 Margin Left, Right
 ===============================
 */
-.mx-auto {
-	margin-left: auto;
-	margin-right: auto;
-}
-
 .mx-05 {
 	margin-left: 5px;
 	margin-right: 5px;

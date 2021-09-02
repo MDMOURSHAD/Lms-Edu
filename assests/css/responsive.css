@@ -1,426 +1,591 @@
 
+
+@media (max-width: 1399px) {
+	/*
+	========================================
+	Start Header Section Css
+	========================================
+	*/
+
+	/*
+	====================
+	Start Hero
+	====================
+	*/
+	.hero-title h1{
+		font-size: 55px;
+	}
+
+	.hero-title p{
+		font-size: 20px;
+	}
+	/*
+	====================
+	End Hero
+	====================
+	*/
+
+	/*
+	========================================
+	End Header Section Css
+	========================================
+	*/
+}
+
 @media (max-width: 1199px) {
 
 	/*
-	==================================
-	Header Section
-	==================================
+	========================================
+	Start Header Section Css
+	========================================
 	*/
-
-	.main-menu ul li:not(:last-child){
-		margin-right: 25px !important;
-	}
 
 	/*
-	==================================
-	Hero Section
-	==================================
+	====================
+	Start Hero
+	====================
 	*/
-
-	.hero-text h1{
-		font-size: 51px;
+	.hero-content a {
+	    padding: 25px 55px;
 	}
-
-	.hero-text p{
-		max-width: 685px;
-		margin-top: 15px;
-		margin-bottom: 15px;
-	}
+	/*
+	====================
+	End Hero
+	====================
+	*/
 
 	/*
-	==================================
-	Garden Section
-	==================================
+	========================================
+	End Header Section Css
+	========================================
 	*/
-
-	.garden-box{
-		min-height: 278px;
-	}
-
-	.garden-box h3{
-		font-size: 16px;
-		margin-bottom: 10px;
-		margin-top: 10px;
-	}
 
 	/*
-	==================================
-	Landscaping Section
-	==================================
+	========================================
+	Start Course Categories Section Css
+	========================================
 	*/
-
-	.lnd-content P:last-of-type{
-		margin: 25px 0px;
+	.categories-row {
+	    margin-left: -12px;
+	    margin-right: -12px;
 	}
 
+	.categories-row > *{
+	  padding-left:12px;
+	  padding-right:12px;
+	  margin-top:24px;
+	}
 	/*
-	==================================
-	Counter Up Section
-	==================================
+	========================================
+	End Course Categories Section Css
+	========================================
 	*/
 
-	.counter-item p:last-of-type{
-		font-size: 16px;
+	/*
+	========================================
+	Start Top Courses  Section Css
+	========================================
+	*/
+	.top-courses-row{
+	  margin-left:-12px;
+	  margin-right:-12px;
 	}
 
-	/*
-	==================================
-	Gallery Section
-	==================================
-	*/
-	
-
-	/*
-	==================================
-	Footer Section
-	==================================
-	*/
-
-	.footer-content h3{
-		font-size: 19px;
+	.top-courses-row > *{
+	  padding-left:12px;
+	  padding-right:12px;
+	  margin-bottom: 24px;
 	}
+
+	.top-courses-item {
+    	min-height: 304px;
+	}
+
+	.top-courses-specefication{
+		padding-right: 23px;
+	}
+	/*
+	========================================
+	End Top Courses  Section Css
+	========================================
+	*/
+
+	/*
+	========================================
+	Start Best Sell Section Css
+	========================================
+	*/
+	.best-sell-row {
+	    margin-right: -12px;
+	    margin-left: -12px;
+	}
+
+	.best-sell-row > *{
+	  padding-left:12px;
+	  padding-right:12px;
+	  margin-bottom: 24px;
+	}
+
+	.best-sell-specefication{
+		padding-right: 24px;
+	}
+	/*
+	========================================
+	End Best Sell Section Css
+	========================================
+	*/
+
+	/*
+	========================================
+	Start Footer Section Css
+	========================================
+	*/
+	.address-col{
+		width: 33.3333333333%;
+	}
+
+	.help-col,
+	.about-col,
+	.tools-col,
+	.touch-col{
+		width: 16.583%;
+	}
+	/*
+	========================================
+	End Footer Section Css
+	========================================
+	*/
 
 }
 
 @media (max-width: 991px) {
-	
+
 	/*
-	==================================
-	Header Section
-	==================================
+	========================================
+	Start Header Section Css
+	========================================
 	*/
 
-	nav{
-		padding:35px 0px !important;
-	}
-
-	.menu-toggle-btn{
-		z-index: 9999;
-	}
-
-	.main-menu{
-	    position: fixed;
-	    width: 60%;
-	    z-index: 999;
-	    min-height: 100vh;
-	    top: 0;
-	    left: -100%;
-	   	height: 100%;
-	    background: #73B21A;
-	    padding: 30px 0px !important;
-	    -webkit-transition: all .5s linear;
-	    -o-transition: all .5s linear;
-	    transition: all .5s linear;
-	}
-
-	.main-menu ul li:not(:last-child){
-		margin: 10px 0px !important;
-	}
-
-	.main-menu ul li:not(:last-child) a{
-		color: #fff !important;
-	}
-
-	.open-nav{
-		left: 0;
-	}
-
 	/*
-	======================
-	Header Sticky
-	======================
+	====================
+	Start Hero
+	====================
 	*/
-	.header-sticky.stick {
-    	padding: 25px 0px !important;
+	.hero-content {
+		padding-top: 70px;
 	}
-
+	.hero-title h1 {
+    	font-size: 45px;
+	}
+	.hero-title p {
+	    font-size: 18px;
+	}
 	/*
-	==================================
-	Service Section
-	==================================
+	====================
+	End Hero
+	====================
 	*/
-	.service-desc p:first-child {
-    	font-size: 16px !important;
-	}
-	
 
 	/*
-	==================================
-	Hero Section
-	==================================
+	========================================
+	Start Header Section Css
+	========================================
 	*/
-	.hero-text h1{
-		font-size: 36px;
-	}
 
 	/*
-	==================================
-	Landscaping Section
-	==================================
+	========================================
+	Start Course Categories Section Css
+	========================================
 	*/
-	.open-video img{
-		width: 100%;
+	.course-categories {
+     padding-top: 50px; 
+     padding-bottom: 60px; 
 	}
 
+	.categories-row {
+	    margin-top: 60px;
+	    margin-left: -8px;
+	    margin-right: -8px;
+	}
 	/*
-	==================================
-	Gallery Section
-	==================================
-
-	/*
-	==================================
-	Footer Section
-	==================================
+	========================================
+	End Course Categories Section Css
+	========================================
 	*/
-	.useful-links{
-		padding-left: 40px;
+
+	/*
+	========================================
+	Start Top Courses  Section Css
+	========================================
+	*/
+	.top-courses {
+	    padding-top: 55px;
+	    padding-bottom: 35px;
+	}
+	.top-courses-row{
+		margin-top: 55px;
+	}
+	.top-courses-btn a,
+	.best-sell-btn a{
+    	padding: 17px 38px;
+	}
+	.top-courses-item {
+    	min-height: 520px;
+	}
+	.freelancing-course{
+		height: 225px;
+		object-fit: cover;
+		object-position: center;
+	}
+	/*
+	========================================
+	End Top Courses  Section Css
+	========================================
+	*/
+
+	/*
+	========================================
+	Start Popular Course Section Css
+	========================================
+	*/
+	.popular-course {
+     	padding-top: 55px; 
+	    padding-bottom: 60px;
+	}
+
+	.popular-course-row {
+	    margin-right: -12px;
+	    margin-left: -12px;
+	    margin-top: 20px;
+	}
+
+	.popular-course-row > *{
+	    padding-left: 12px;
+	    padding-right: 12px;
+	    margin-bottom: 24px;
+	}
+	/*
+	========================================
+	End Popular Course Section Css
+	========================================
+	*/
+
+	/*
+	========================================
+	Start Best Sell Section Css
+	========================================
+	*/
+	.best-sell {
+	    padding-top: 60px;
+	    padding-bottom: 35px;
+	}
+
+	.best-sell-row {
+	    margin-top: 55px;
+	}
+	/*
+	========================================
+	End Best Sell Section Css
+	========================================
+	*/
+
+	/*
+	========================================
+	Start Achieve Goals Section Css
+	========================================
+	*/
+	.achieve-goals {
+	  	padding-top: 55px;
+	    padding-bottom: 60px;
+	}
+
+	.achieve-goals-row {
+	    margin-top: 35px;
+	}
+	/*
+	========================================
+	End Achieve Goals Section Css
+	========================================
+	*/
+
+	/*
+	========================================
+	Start  clients-appriciation Section Css
+	========================================
+	*/
+	.clients-appriciation {
+	     padding-top: 55px; 
+	}
+
+	.clients-appriciation-row {
+	    margin-top: 55px;
+	}
+
+	.clients-appriciation-row .col-md-6:first-child{
+		padding-bottom: 60px;
+	}
+
+	.blockquote-desc{
+		padding-left: 0px;
+	}
+
+	.video-col{
+		padding-bottom: 60px;
 	}
 
 
+	/*
+	========================================
+	End  clients-appriciation Section Css
+	========================================
+	*/
+
+	/*
+	========================================
+	Start Blog Section Css
+	========================================
+	*/
+	.blog-seciton {
+	    padding-top: 55px;
+	    padding-bottom: 60px;
+	}
+
+	.blog-title{
+		margin-bottom: 60px;
+	}
+	/*
+	========================================
+	End Blog Section Css
+	========================================
+	*/
+
+	/*
+	========================================
+	Start Become Instructor Css
+	========================================
+	*/
+
+	.become-instructor {
+    	padding-top: 50px;
+    	padding-bottom: 60px;
+	}
+
+	.form-area form {
+	    width: 580px;
+	}
+
+	input[type="text"] {
+	    width: 58%;
+	}
+
+	/*
+	========================================
+	End Become Instructor Section Css
+	========================================
+	*/
+
+	/*
+	========================================
+	Start Footer Section Css
+	========================================
+	*/
+	.footer {
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+	.footer-row > *{
+		margin-bottom: 24px;
+	}
+	.address-col{
+		width: 33.3333333333%;
+	}
+
+	.help-col,
+	.about-col{
+		width: 33.3333333333%;
+	}
+
+	.tools-col,
+	.touch-col{
+		width: 33.3333333333%;
+	}	
+	/*
+	========================================
+	End Footer Section Css
+	========================================
+	*/
 }
 
 @media (max-width: 767px) {
 
 	/*
-	==================================
-	Header Section
-	==================================
+	========================================
+	Start Header Section Css
+	========================================
 	*/
 
-	.main-menu{
-	    width: 70%;
+	/*
+	====================
+	Start Hero
+	====================
+	*/
+	.hero-content a {
+	    padding: 20px 40px;
+	    font-size: 15px;
+	}
+	/*
+	====================
+	End Hero
+	====================
+	*/
+
+	/*
+	========================================
+	End Header Section Css
+	========================================
+	*/
+
+	/*
+	========================================
+	Start Course Categories Section Css
+	========================================
+	*/
+
+	.top-border, 
+	.bottom-border{
+	    width: 100%;   
+	}
+
+	.left-border, 
+	.right-border{
+		height: 100%;
 	}
 
 	/*
-	==================================
-	Hero Section
-	==================================
+	========================================
+	End Course Categories Section Css
+	========================================
 	*/
-	.hero-section{
-		padding: 80px 0px;
-	}
-
-	.hero-text h1 {
-    	font-size: 41px;
-	}
 
 	/*
-	==================================
-	Garden Section
-	==================================
+	========================================
+	Start Top Courses  Section Css
+	========================================
 	*/
-	.garden-section{
-		padding-top: 65px;
-		padding-bottom: 55px;
+	.top-courses-desc p {
+    	width: 78%;
+	    margin-left: auto;
+	    margin-right: auto;
 	}
-
-	.garden-box {
-    	min-height: auto;
-	}
+	/*
+	========================================
+	End Top Courses  Section Css
+	========================================
+	*/
 
 	/*
-	==================================
-	Landscaping Section
-	==================================
+	========================================
+	Start Popular Course Section Css
+	========================================
 	*/
-
-	.lnd-section{
-		padding-top: 70px;
-		padding-bottom: 40px;
-	}
-
-	.list-content ul:first-of-type{
-		margin-right: 70px;
-	}
+	/*
+	========================================
+	End Popular Course Section Css
+	========================================
+	*/
 
 	/*
-	==================================
-	Service Section
-	==================================
+	========================================
+	Start Best Sell Section Css
+	========================================
 	*/
-	.service-section{
-		padding-top: 65px;
-		padding-bottom:40px;	
-	}
-
-	.service-box{
-		padding-left: 12px;
-		padding-right: 12px;
-	}
-	
-	.service-icon{
-		margin-right: 0px;
-		margin-bottom: 15px;
-	}
-
-	.service-desc p:last-child{
-		margin-top: 15px;
-	}
+	/*
+	========================================
+	End Best Sell Section Css
+	========================================
+	*/
 
 	/*
-	==================================
-	Counter Up Section
-	==================================
+	========================================
+	Start Achieve Goals Section Css
+	========================================
 	*/
-	.counter-section{
-		padding-top: 70px;
-		padding-bottom: 60px;
-	}
+	/*
+	========================================
+	End Achieve Goals Section Css
+	========================================
+	*/
 
 	/*
-	==================================
-	Meet Section
-	==================================
+	========================================
+	Start  clients-appriciation Section Css
+	========================================
 	*/
-	.meet-section{
-		padding-top: 60px;
-		padding-bottom: 70px;
-	}
+	/*
+	========================================
+	End  clients-appriciation Section Css
+	========================================
+	*/
 
 	/*
-	==================================
-	Gallery Section
-	==================================
+	========================================
+	Start Brand Section Css
+	========================================
 	*/
-	/*.gallery-img img{
-		width: 100%;
-	}
+	/*
+	========================================
+	End Brand Section Css
+	========================================
+	*/
 
 	/*
-	==================================
-	News Section
-	==================================
+	========================================
+	Start Blog Section Css
+	========================================
 	*/
-	.news-section{
-		padding-top: 60px;
-		padding-bottom: 40px;
-	}
+	/*
+	========================================
+	End Blog Section Css
+	========================================
+	*/
 
 	/*
-	==================================
-	Footer Section
-	==================================
+	========================================
+	Start Become Instructor Css
+	========================================
 	*/
-	footer{
-		padding-top: 63px;
-	}
+	/*
+	========================================
+	End Become Instructor Section Css
+	========================================
+	*/
 
-	.copyright-text{
-		margin-bottom: 15px;
-	}
-
-
-
+	/*
+	========================================
+	Start Footer Section Css
+	========================================
+	*/
+	/*
+	========================================
+	End Footer Section Css
+	========================================
+	*/
 }
+
 @media (max-width: 575px) {
-	
-	/*
-	==================================
-	Font Size
-	==================================
-	*/
-	.font-size-35 {
-    	font-size: 26px;
-	}
-
-	/*
-	==================================
-	Header Section
-	==================================
-	*/
-
-	.main-menu{
-	    width: 75%;
-	}
-
-	.login-signup li:first-child{
-		margin-right: 8px;
-	}
-
-	.search-box {
-	    min-width: 300px;
-	    padding-top: 15px !important;
-	    padding-bottom: 15px !important;
-	}
-
-
-	/*
-	==================================
-	Hero Section
-	==================================
-	*/
-	.hero-text h1 {
-    	font-size: 37px;
-	}
-
-	/*
-	==================================
-	Landscaping Section
-	==================================
-	*/
-	.lnd-content p:first-child{
-		font-size: 18px;
-	}
-	
-	/*
-	==================================
-	Gallery Section
-	==================================
-	*/
-
-	/*
-	==================================
-	News Section
-	==================================
-	*/
-	.news-img img{
-		width: 100%;
-	}
-
-	/*
-	==================================
-	Footer Section
-	==================================
-	*/
-	.useful-links{
-		padding-left: 0px;
-	}
-}
-
-
-@media (max-width: 540px) {
-
-	/*
-	==================================
-	Landscaping Section
-	==================================
-	*/
-	.list-content ul:first-of-type {
-    	margin-right: 20px;
-	}
 
 }
 
-@media (max-width: 489px) {
 
-	/*
-	==================================
-	Landscaping Section
-	==================================
-	*/
-	.list-content{
-    	-webkit-box-orient: vertical;
-    	-webkit-box-direction: normal;
-    	    -ms-flex-direction: column;
-    	        flex-direction: column;
-	}
 
-	.list-content ul:first-of-type {
-    	margin-right: 0px;
-    	margin-bottom: 0px;
-	}
 
-	.list-content ul:last-of-type {
-    	margin-bottom: 20px;
-	}
-}
+
+
+
+
+
+
+
+
+
+

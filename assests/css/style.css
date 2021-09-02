@@ -1,49 +1,50 @@
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 html{
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-rendering: optimizeLegibility;
-	scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
 
 }
 
 body{
-	font-family: 'Open Sans 400';
-	font-size: 16px;
-	line-height: 1.8;
-	letter-spacing: 1px;
-	font-style: normal;
+  overflow-x:hidden;
 }
 
 /*
-==================================
-Basic Setup
-==================================
+========================================
+Start Basic Setup
+========================================
 */
 
 *,
 *::before,
 *::after{
-	margin: 0;
-	padding: 0;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 ul li{
-	list-style-type: none;
+  list-style-type: none;
 }
 
 a,
 span,
 label{
-	display: inline-block;
+  display: inline-block;
 }
 
 a,
 a:focus{
-	text-decoration: none;
+  text-decoration: none;
 }
 
 button,
@@ -52,12 +53,12 @@ textarea,
 button:focus,
 input:focus,
 textarea:focus{
-	outline: 0;
-	border: 0;
+  outline: 0;
+  border: 0;
 }
 
 button{
-	cursor: pointer;
+  cursor: pointer;
 }
 
 h1,
@@ -70,993 +71,895 @@ ol,
 ul,
 p,
 hr{
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*
-==================================
-Font Size
-==================================
+========================================
+End Basic Setup
+========================================
 */
 
-.font-size-55{
-	font-size: 55px;
-}
+/*
+========================================
+Start Font Size
+========================================
+*/
 
-.font-size-35{
-	font-size: 35px;
-}
-
-.font-size-27{
-	font-size: 27px;
-}
-
-.font-size-24{
-	font-size: 24px;
-}
-
-.font-size-20{
-	font-size: 20px;
-}
-
-.font-size-18{
-	font-size: 18px;
-}
-
-.font-size-17{
-	font-size: 17px;
-}
-
-.font-size-16{
-	font-size: 16px;
-}
-
-.font-size-15{
-	font-size: 15px;
+.font-size-13{
+  font-size:13px;
 }
 
 .font-size-14{
-	font-size: 14px;
+  font-size:14px;
 }
 
-.font-size-13{
-	font-size: 13px;
+.font-size-15{
+  font-size:15px;
 }
 
-/*
-==================================
-Font Color
-==================================
-*/
-
-.text-color-ff{
-	color: #ffffff;
+.font-size-16{
+  font-size:16px;
 }
 
-.text-color-33{
-	color: #333333;
+.font-size-18{
+  font-size:18px;
 }
 
-.text-color-73{
-	color: #73b21a;
+.font-size-20{
+  font-size:20px;
 }
 
-.text-color-66{
-	color: #666666;
+.font-size-23{
+  font-size:23px;
 }
 
-.text-color-7a{
-	color: #7a7a7a;
+.font-size-24{
+  font-size:24px;
 }
 
-.text-color-80{
-	color: #808080;
+.font-size-30{
+  font-size:30px;
 }
 
-.text-color-97{
-	color: #979797;
+.font-size-36{
+  font-size:36px;
 }
 
-.text-color-dd{
-	color: #DDD;
-}
-
-.text-color-80{
-	color: #808080;
+.font-size-60{
+  font-size:60px;
 }
 
 /*
-==================================
-Background Color
-==================================
+========================================
+End Font Size
+========================================
 */
 
-.bg-color-73{
-	background: #73B21A;
+/*
+========================================
+Start Font Color
+========================================
+*/
+
+.font-color-f4{
+  color:#f4f8ff;
+}
+
+.font-color-ff{
+  color:#ffffff;
+}
+
+.font-color-f2{
+  color:#f2f7ff;
+}
+
+.font-color-00{
+  color:#000000;
+}
+
+.font-color-33{
+  color:#333333;
+}
+
+.font-color-08{
+  color:#080808;
+}
+
+.font-color-01{
+  color:#010101;
+}
+
+.font-color-66{
+  color:#666666;
+}
+
+.font-color-ab{
+  color:#AB0534;
+}
+
+.font-color-ed{
+  color:#ED8000;
+}
+
+.font-color-4c{
+  color:#4c4c4c;
+}
+
+.font-color-4d{
+  color:#4d4d4d;
+}
+
+/*
+========================================
+End Font Color
+========================================
+*/
+
+/*
+========================================
+Start Background Color
+========================================
+*/
+
+.bg-color-ab{
+  background:#AB0534;
+}
+
+.bg-color-f4{
+  background:#F4F8FF;
 }
 
 .bg-color-ff{
-	background: #ffffff;
+  background:#FFFFFF;
 }
 
-.bg-color-4b{
-	background: #4B7017;
+.bg-color-f7{
+  background:#F7F9FA;
 }
 
-.bg-color-22{
-	background: #222222;
-}
-
-.bg-color-f9{
-	background: #F9F9F9;
-}
-
-.bg-color-0e{
-	background: #0E0E0E;
-}
-
-.bg-color-40{
-	background: #406E00;
-}
-
-.bg-color-8c{
-	background: #8C8C8C;
-}
-
-.bg-color-15{
-	background: #151515;
+.bg-color-29{
+  background:#292662;
 }
 
 /*
-==================================
-Reusable Components
-==================================
+========================================
+End Background Color
+========================================
 */
 
-.line-1,
-.line-2{
-	opacity: 1;
-	border: 0;
-	border-bottom: 3px solid #73B21A;
-	height: 2px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.line-1{
-	width: 120px;
-	margin-bottom: 5px;
-}
-
-.line-2{
-	width: 75px;
-}
-
-.p-w {
-    max-width: 803px;
-}
-
-.btn-primry{
-	width: 150px;
-	height: 40px;
-	line-height:40px;
-}
-
-.btn-primry:hover{
-	background: #4b7017;
-}
-
-.overlay-2{
-    position: absolute;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    bottom: 0;
-    right: 0;
-    -webkit-transform: scale(0);
-        -ms-transform: scale(0);
-            transform: scale(0);
-    background: -webkit-gradient(linear,left top, left bottom,from(rgba(51, 51, 51, .8)),to(rgba(115, 178, 26, .8)));
-    background: -o-linear-gradient(rgba(51, 51, 51, .8),rgba(115, 178, 26, .8));
-    background: linear-gradient(rgba(51, 51, 51, .8),rgba(115, 178, 26, .8));
-	transform:scale(0);
-}
-
-.transition-ease{
-	-webkit-transition: all .3s ease;
-	-o-transition: all .3s ease;
-	transition: all .3s ease;	
-}
-
-.transition-linear{
-	-webkit-transition: all .5s linear;
-	-o-transition: all .5s linear;
-	transition: all .5s linear;
+.img-100{
+  width: 100%;
 }
 
 /*
-==================================
-Reusable Components
-==================================
+========================================
+Start Reusable Components
+========================================
+*/
+
+.transition-linear-3s{
+  transition:.3s linear;
+}
+
+.transition-linear-5s{
+  transition:.5s linear;
+}
+
+.transition-ease-3s{
+  transition:.3s ease;
+}
+
+.transition-ease-5s{
+  transition:.5s ease;
+}
+
+/*
+========================================
+End Reusable Components
+========================================
 */
 
 /*
-==================================
-Preloader
-==================================
+====================
+Start Preloader
+====================
 */
+
 .preloader {
+    height: 100vh;
+    display: flex;
     position: fixed;
-    top: 0;
-    z-index: 9999999;
-    left: 0;
-    height: 100%;
-    background: #fff;
+    z-index: 99999;
+    align-items: center;
+    justify-content: center;
     width: 100%;
+    background: #fff;
+}
+
+/*
+====================
+End Preloader
+====================
+*/
+
+/*
+========================================
+Start Header Section Css
+========================================
+*/
+
+.nav{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+/*
+====================
+Start Hero
+====================
+*/
+
+.hero-content a{
+  padding:28px 60px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius:30px;
+}
+
+/*
+====================
+End Hero
+====================
+*/
+
+/*
+========================================
+End Header Section Css
+========================================
+*/
+
+/*
+========================================
+Start Course Categories Section Css
+========================================
+*/
+
+.course-categories{
+  padding-top: 78px;
+  padding-bottom: 96px;
+}
+
+.categories-title h2::after {
+    position: absolute;
+    content: '';
+    top: 62px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 165px;
+    height: 2px;
+    background: #020202;
+}
+
+.categories-row{
+  margin-top:120px;
+  margin-left:-8px;
+  margin-right:-8px;
+}
+
+.categories-row > *{
+  padding-left:8px;
+  padding-right:8px;
+  margin-top:16px;
+}
+
+.categories-list:hover{
+  background:#AB0534;
+}
+
+.categories-list:hover  span,
+.categories-list:hover  h3{
+  color:#F2F7FF;
+}
+.categories-list:hover .top-border,
+.categories-list:hover .bottom-border,
+.categories-list:hover .left-border,
+.categories-list:hover .right-border{
+  background:transparent;
+}
+
+.top-border,
+.bottom-border{
+  width:150px;
+  height:2px;
+  background:#A6A6A6;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.top-border{
+  top:0;
+}
+
+.bottom-border{
+  bottom:0;
+}
+
+.left-border,
+.right-border{
+  height:140px;
+  width:2px;
+  background:#A6A6A6;
+  top:50%;
+  transform:translateY(-50%);
+}
+
+.left-border{
+  left:0;
+}
+
+.right-border{
+  right:0;
+}
+
+/*
+========================================
+End Course Categories Section Css
+========================================
+*/
+
+/*
+========================================
+Start Top Courses  Section Css
+========================================
+*/
+
+.top-courses{
+  padding-top: 98px;
+  padding-bottom: 55px;
+}
+
+.top-courses-row{
+  margin-left:-21px;
+  margin-right:-21px;
+}
+
+.top-courses-row > *{
+  padding-left:21px;
+  padding-right:21px;
+  margin-bottom: 45px;
+}
+
+.top-courses-desc p{
+  width: 63%;
+  margin-top:18px;
+}
+
+.top-courses-btn a{
+  padding:17px 40px;
+  border:1px solid #111111;
+  margin-top:34px;
+}
+
+.top-courses-item{
+  border:2px solid #F0F0F0;
+}
+
+.border-hvr{
+  transition:border-width .3s linear !important;
+}
+
+.top-courses-item:hover .border-hvr{
+  border-width:0px !important;
+}
+
+.shadow-hvr{
+   transition:box-shadow .3s linear !important;
+}
+
+.shadow-hvr:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px !important;
+}
+
+.overlay {
+    top: 0;
+    left: 0;
+    opacity: 0;
     right: 0;
     bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(171, 5, 52, .5);
 }
+
+.top-courses-item:hover .overlay{
+  opacity:1;
+}
+
+.top-courses-specefication h3{
+  line-height:27px;
+}
+
+span.icon-plus {
+    font-size: 50px;
+    color: #fff;
+}
+
+
 /*
-==================================
-Preloader
-==================================
+========================================
+End Top Courses  Section Css
+========================================
 */
 
 /*
-==================================
-Header Section
-==================================
+========================================
+Start Popular Course Section Css
+========================================
 */
 
-.header-top{
-	padding: 8px 0px;
+.popular-course{
+  padding-top: 95px;
+  padding-bottom: 100px;
 }
-.main-menu ul li:not(:last-child) a:hover{
-	color: #73B21A;
+
+.popular-course-row{
+  margin-right:-15px;
+  margin-left:-15px;
+}
+
+.popular-course-row > *{
+  padding-left:15px;
+  padding-right:15px;
+  margin-top:30px;
+}
+
+.popular-course-title p {
+    width: 31%;
+    margin-top: 18px;
+}
+
+.popular-course-img h2{
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
 }
 
 /*
-======================
-Menu Toggle Btn
-======================
+========================================
+End Popular Course Section Css
+========================================
 */
 
-.bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 5px;
-  background-color: #151515;
-  margin: 6px 0;
-  -webkit-transition: 0.4s;
-  -o-transition: 0.4s;
-  transition: 0.4s;
-}
-
-.change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  -ms-transform: rotate(-45deg) translate(-9px, 6px);
-      transform: rotate(-45deg) translate(-9px, 6px);
-}
-
-.change .bar2 {opacity: 0;}
-
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  -ms-transform: rotate(45deg) translate(-8px, -8px);
-      transform: rotate(45deg) translate(-8px, -8px);
-}
-
-.login-signup li:last-child a{
-	border-radius: 10px;
-}
-
-.main-menu ul li:last-of-type a,
-.mobile-menu-search a{
-	height: 35px;
-	width: 35px;
-	line-height: 35px;
-}
-
 /*
-======================
-Search Box
-======================
+========================================
+Start Best Sell Section Css
+========================================
 */
 
-.search-box{
-	position: absolute;
-	top: 210%;
-	right: 0;
-	border-top: 2px solid #73B21A;
-	min-width: 330px;
-	background: #ecf0f1;
-	visibility: hidden;
-	opacity: 0;
-	-webkit-transition: all .3s linear;
-	-o-transition: all .3s linear;
-	transition: all .3s linear;
+.best-sell{
+  padding-top: 98px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid #E5E5E5;
 }
 
-.search-box-show{
-	top: 130%;
-	visibility: visible;
-	opacity: 1;
+.best-sell-title p{
+  width: 63%;
+  margin-top:18px;
 }
 
-.search-box input[type=search]{
-	background: #fff;
+.best-sell-btn a{
+  padding:17px 40px;
+  border:1px solid #111111;
+  margin-top:34px;
 }
 
-.search-box input[type=search]:focus{
-	background: #fff;
+.best-sell-row{
+  margin-top:93px;
+  margin-right:-22px;
+  margin-left:-22px;
 }
 
-/*.search-box input[type=search]:-webkit-autofill,
-.search-box input[type=search]:-webkit-autofill:hover, 
-.search-box input[type=search]:-webkit-autofill:focus, 
-.search-box input[type=search]:-webkit-autofill:active  {
-    -webkit-background: #fff !important;
-}*/
-
-.search-box input[type=search]::-webkit-input-placeholder{
-	color: #151515;
-	font-family: 'Open Sans 400';
+.best-sell-row > *{
+  padding-left:22px;
+  padding-right:22px;
+  margin-bottom:50px;
 }
 
-.search-box input[type=search]::-moz-placeholder{
-	color: #151515;
-	font-family: 'Open Sans 400';
+.best-sell-img img{
+  width:100%;
 }
 
-.search-box input[type=search]:-ms-input-placeholder{
-	color: #151515;
-	font-family: 'Open Sans 400';
+.best-sell-item{
+  border:2px solid #F0F0F0;
 }
 
-.search-box input[type=search]::-ms-input-placeholder{
-	color: #151515;
-	font-family: 'Open Sans 400';
+.best-sell-item:hover .border-hvr{
+  border-width:0px !important;
 }
 
-.search-box input[type=search],
-.search-box input[type=search]::placeholder{
-	color: #151515;
-	font-family: 'Open Sans 400';
+.best-sell-specefication h3{
+  line-height:27px;
 }
 
-.search-box input[type=search],
-.search-box button{
-	padding-top: 12px;
-	padding-bottom: 12px;
+span.icon-plus {
+    font-size: 50px;
+    color: #fff;
 }
-
-
 
 /*
-======================
-Header Sticky
-======================
+========================================
+End Best Sell Section Css
+========================================
 */
 
-.header-sticky.stick {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	-webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-	animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-	z-index: 999999;
-	background: #fff;
-	padding: 25px 0px;
-	-webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-	        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-@-webkit-keyframes fadeInDown {
-	0% {
-		opacity: 0;
-		-webkit-transform: translateY(-20px);
-		transform: translateY(-20px);
-	}
-
-	100% {
-		opacity: 1;
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
-	}
-}
-
-@keyframes fadeInDown {
-	0% {
-		opacity: 0;
-		-webkit-transform: translateY(-20px);
-		-ms-transform: translateY(-20px);
-		transform: translateY(-20px);
-	}
-
-	100% {
-		opacity: 1;
-		-webkit-transform: translateY(0);
-		-ms-transform: translateY(0);
-		transform: translateY(0);
-	}
-}
-
 /*
-==================================
-Header Section
-=================================
-/*
-
-/*
-==================================
-Hero Section
-==================================
+========================================
+Start Achieve Goals Section Css
+========================================
 */
 
-.hero-section {
-    background: -webkit-gradient(linear,left top, left bottom,from(rgba(51, 51, 51, .7)),to(rgba(115, 178, 26, .7))),url(../images/banner1.jpg);
-    background: -o-linear-gradient(rgba(51, 51, 51, .7),rgba(115, 178, 26, .7)),url(../images/banner1.jpg);
-    background: linear-gradient(rgba(51, 51, 51, .7),rgba(115, 178, 26, .7)),url(../images/banner1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.achieve-goals{
+  padding-top: 97px;
+  padding-bottom: 100px;
 }
 
-.hero-text a{
-	border-radius: 8px;
+.achieve-goals-title p {
+    width: 31%;
+    margin-top: 18px;
 }
 
-.hero-img img {
-    margin-bottom: -1px;
+.achieve-goals-list h3{
+  margin-top:32px;
 }
 
-/*
-==================================
-Hero Section
-==================================
-*/
-
-
-
-/*
-==================================
-Garden Section
-==================================
-*/
-
-.garden-row{
-	margin-left: -15px;
-	margin-right: -15px;
+.achieve-goals-row{
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
-.garden-row > *{
-	padding-left: 15px;
-	padding-right: 15px;
-	margin-bottom: 30px;
+.achieve-goals-row > *{
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 17px;
+
 }
 
-.garden-box{
-	min-height: 238px;
+.achieve-goals-list p{
+    width: 86%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.garden-box:hover{
-	background: #73B21A;
+.achieve-goals-list{
+  border:2px solid #F0F0F0 !important;
 }
 
-.garden-box a {
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-            transform: translateX(-50%);
-    bottom: -17px;
+.achieve-goals-list:hover .border-hvr{
+  border-width:0px !important;
 }
 
 /*
-==================================
-Garden Section
-==================================
+========================================
+End Achieve Goals Section Css
+========================================
 */
-
 
 /*
-==================================
-Landscaping Section
-==================================
+========================================
+Start  clients-appriciation Section Css
+========================================
 */
 
-.lnd-section{
-    background: -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0.6)),to(rgba(0,0,0,0.6))),url(../images/banner2.jpg);
-    background: -o-linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/banner2.jpg);
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/banner2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.clients-appriciation{
+  padding-top: 102px;
 }
 
-.lnd-row{
-	margin-left: -15px;
-	margin-right: -15px;
+.clients-appriciation-title p {
+    width: 31%;
+    margin-top: 18px;
 }
 
-.lnd-row > *{
-	padding-left: 15px;
-	padding-right: 15px;
-	margin-bottom: 30px;
+.clients-appriciation-row {
+  margin-top: 88px;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
-.open-video .play-btn {
-    height: 70px;
+.clients-appriciation-row .col-md-6:first-child{
+  border-bottom: 1px solid #e6e7e8;
+}
+
+.clients-appriciation-row .col-md-6:last-child{
+  border-left: 1px solid #e6e7e8;
+  border-bottom: 1px solid #e6e7e8;
+}
+
+.clients-appriciation-row > *{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+}
+
+.blockquote-desc{
+    font-family: 'Roboto';
+    font-style: italic;
+    width: 80%;
+}
+
+.clients-appriciation-desc img {
+    top: 0;
+    left: 0;
+}
+
+.video-area img{
+  width: 100%;
+}
+
+.video-area a {
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%,-50%);
-        -ms-transform: translate(-50%,-50%);
-            transform: translate(-50%,-50%);
-    width: 70px;
-    line-height: 70px;
-    position: absolute;
-}
-
-.lnd-content a{
-	-webkit-transition: all .3s ease;
-	-o-transition: all .3s ease;
-	transition: all .3s ease;
-}
-
-.lnd-content a:hover{
-	background: #73B21A;
-}
-
-.list-content ul li{
-	line-height: 27px;
-}
-
-.list-content ul:first-child{
-	margin-bottom: 19px;
-}	
-
-/*
-==================================
-Landscaping Section
-==================================
-*/
-
-/*
-==================================
-Service Section
-==================================
-*/
-
-.service-row{
-	margin-left: -15px;
-	margin-right: -15px;
-}
-
-.service-row > *{
-	padding-left: 15px;
-	padding-right: 15px;
-	margin-bottom: 30px;
-}
-
-.service-box{
-	background: #F9F9F9;
-	-webkit-transition: all .3s ease;
-	-o-transition: all .3s ease;
-	transition: all .3s ease;
-}
-
-.service-box:hover{
-	background: #73B21A;
-	-webkit-box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
-	        box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
-}
-
-.service-box:hover .service-icon span{
-	background: #ffffff !important;;
-	color: #73B21A !important;;
-}
-
-.service-box:hover .service-desc p{
-	color: #ffffff !important;
-}
-
-.service-desc p:first-child{
-	letter-spacing: 0px;
-}
-
-.service-box:hover .service-desc hr{
-	border-color: #ffffff !important;
-}
-.service-icon span {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: 60px;
-    font-size: 20px;
+    transform: translate(-50%,-50%);
+    border: 5px solid #fff;
     height: 60px;
-    -webkit-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
+    width: 60px;
+    border-radius: 50%;
 }
-
-.service-desc{
-	-webkit-transition: .3s;
-	-o-transition: .3s;
-	transition: .3s;
-}
-
-.service-desc hr{
-	opacity: 1;
-	border: 0;
-	border-bottom: 2px dashed #73B21A;
-	background: transparent;
-	margin-top: 6px;
-	margin-bottom: 7px;
-}
-
 
 /*
-==================================
-Service Section
-==================================
+========================================
+End  clients-appriciation Section Css
+========================================
 */
-
 
 /*
-==================================
-Counter Up Section
-==================================
+========================================
+Start Brand Section Css
+========================================
+*/
+.brand-section{
+  padding-top: 60px;
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+    font-size: 30px;
+}
+/*
+========================================
+End Brand Section Css
+========================================
 */
 
-.counter-section{
-    background: -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0.7)),to(rgba(0,0,0,0.7))),url(../images/banner3.jpg);
-    background: -o-linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/banner3.jpg);
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/banner3.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+/*
+========================================
+Start Blog Section Css
+========================================
+*/
+
+.blog-seciton{
+  padding-top: 95px;
+  padding-bottom: 100px;
+}
+
+.blog-title p {
+    width: 31%;
+    margin-top: 18px;
+}
+
+.blog-box{
+  border:2px solid #F0F0F0 !important;
+}
+
+.blog-box:hover .border-hvr{
+  border-width:0px !important;
+}
+
+.blog-desc h3{
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.blog-desc{
+  padding-left: 30px;
+  padding-top: 25px;
+  padding-right: 40px;
+  padding-bottom: 25px;
+}
+
+.blog-desc p{
+  margin-bottom: 15px;
+}
+
+/*
+========================================
+End Blog Section Css
+========================================
+*/
+
+/*
+========================================
+Start Become Instructor Css
+========================================
+*/
+
+.become-instructor {
+    background: url('../images/become-instructor.png');
     background-size: cover;
-}
-
-.counter-item p:last-child{
-	margin-top: -10px;
-}
-
-.counter-img{
-	height: 68px;
-	width: 68px;
-	border: 2px solid #fff;
-	line-height: 68px;
-	margin-bottom: 2px;
-}
-
-/*
-==================================
-Counter Up Section
-==================================
-*/
-
-
-/*
-==================================
-Meet Section
-==================================
-*/
-
-.team-img img{
-	width: 100%;
-}
-
-.overlay{
-	position: absolute;
-	left: 0;
-	bottom: -100%;
-	height: 100%;
-	z-index: 11;
-	width: 100%;
-	background: -webkit-gradient(linear,left top, left bottom,from(rgba(115, 178, 26, .7)),to(rgba(51, 51, 51, .7)));
-	background: -o-linear-gradient(rgba(115, 178, 26, .7),rgba(51, 51, 51, .7));
-	background: linear-gradient(rgba(115, 178, 26, .7),rgba(51, 51, 51, .7))
-}
-
-.team-content:hover .overlay{
-	bottom: 0;
-}
-
-.social-link{
-	position: absolute;
-	left: 0;
-	bottom: -42px;
-	width: 100%;
-	z-index: 111;
-}
-
-.team-content:hover .social-link{
-	bottom: 0px;
-}
-
-
-.social-link ul{
-	padding: 7px 0px;
-}
-
-.team-name{
-	padding: 9px 0px;
-}
-
-.team-name p:first-child{
-	margin-bottom: -2px;
-}
-
-/*
-==================================
-Meet Section
-==================================
-*/
-
-
-/*
-==================================
-Gallery Section
-==================================
-*/
-
-.btn-area{
-	margin-bottom: 42px;
-}
-
-
-.gallery-img:hover .gallery-overlay{
-	-webkit-transform:scale(1);
-	    -ms-transform:scale(1);
-	        transform:scale(1);
-}
-
-.mixitup-control-active {
-    text-decoration: line-through !important;
-}
-
-/*
-==================================
-Gallery Section
-==================================
-*/
-
-
-/*
-==================================
-Slider Section
-==================================
-*/
-
-.slider-section{
-	background: -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0.7)),to(rgba(0,0,0,0.7))),url(../images/banner4.jpg);
-	background: -o-linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/banner4.jpg);
-	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/banner4.jpg);
-    background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.slider-content img{
-	width: 90px;
-	height: 90px;
-	border: 4px solid #dddddd;
-	margin-bottom: 14px;
+.form-area form{
+  width: 680px;
 }
 
-.slider-content p:nth-child(2) {
-    margin-top: 2px;
+input[type="text"] {
+    width: 60%;
+    margin-left: 65px;
+    padding-top: 21px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Roboto-400';
 }
 
-.slider-content p:last-child {
-    max-width: 873px;
-    margin-top: 5px;
+input[type="text"]::placeholder{
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Roboto-400';
 }
 
-.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+.form-area form input[type=submit] {
+    width: 29.50%;
+    padding-top: 21px;
+    padding-bottom: 19px;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Roboto-500';
 }
-
-.swiper-pagination-bullet {
-    width: 16px;
-    height: 16px;
-    background: #fff;
-    opacity: 1;
-}
-
-.swiper-pagination-bullet {
-    display:block;
-}
-
- .swiper-pagination-bullet-active{
-    background: #73B21A;
-     width: 20px;
-    height: 20px;
- }
 
 /*
-==================================
-Slider Section
-==================================
+========================================
+End Become Instructor Section Css
+========================================
 */
 
 /*
-==================================
-News Section
-==================================
+========================================
+Start Footer Section Css
+========================================
 */
 
-.news-row {
-	marign-left:-15px;
-	marign-right:-15px;
+.address-col{
+  width: 390px;
 }
 
-.news-row > *{
-	padding-left: 15px;
-	padding-right: 15px;
-	margin-bottom: 30px;
+.address-desc h3{
+  margin-bottom: 6px;
 }
 
-.news-desc P:first-child {
-    margin-bottom: 8px;
-    letter-spacing: 0;
+.help-col{
+  width: 243px;
 }
 
-.news-content{
-	-webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-	        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+.about-col{
+  width: 204px;
 }
 
-.news-content:hover .news-overlay{
-	z-index: 9999;
-	-webkit-transform:scale(1);
-	    -ms-transform:scale(1);
-	        transform:scale(1);
+.tools-col{
+  width: 228px;
 }
 
-.month {
-    line-height: 35px;
-    width: 140px;
-    z-index: 99999;
-    height: 35px;
-    border-top-right-radius: 18px;
-    position: absolute;
-    left: 0;
-    bottom: -35px;
+.touch-col{
+  width: 112px;
 }
 
-.news-content:hover{
-	-webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-	        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+.help-col h3,
+.about-col h3,
+.tools-col h3,
+.touch-col h3{
+  margin-bottom: 13px;
 }
 
-.news-content:hover .month{
-	bottom: 0;
-}
-
-.news-desc P:last-child {
-    margin-bottom: 15px;
-    letter-spacing: 0px;
-}
-
-.news-link{
-	border-color: #dddddd !important;
-}
-
-.news-link a span:last-child{
-	opacity: 0;
-	visibility: hidden;
-	-webkit-transition: .3s;
-	-o-transition: .3s;
-	transition: .3s;
-}
-
-.news-link a:hover{
-	color: #73B21A !important;
-}
-
-.news-link a:hover .news-icon{
-	opacity: 1;
-	visibility: visible;
-
+.footer-bottom{
+  border-top: 1px solid #494679;
+  padding-top: 27px;
 }
 
 /*
-==================================
-News Section
-==================================
+========================================
+End Footer Section Css
+========================================
 */
 
 /*
-==================================
-Footer Section
-==================================
+===================================
+Start Scroll to Top 
+===================================
 */
-
-footer{
-	padding-top: 108px;
+.scroll-top{
+    display: none;
+    position: fixed;
+    right: 30px;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3px;
+    line-height: 40px;
+    text-align: center;
+    background: #f54748;
+    bottom: 40px;
 }
 
-.f-line{
-	border: 0;
-	border-bottom: 1px solid #DDD;
-}
+/* Bob */
 
-.f-social-link li a:hover{
-	color: #73B21A;
+@-webkit-keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  50% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  100% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
 }
-
-.pages-link li a i{
-	font-size: 6px;
-	vertical-align: middle;
+@keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  50% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  100% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
 }
-
-.pages-link li a:hover{
-	padding-left: 3px;
+@-webkit-keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
 }
-
-.pages-link li a:hover .dote{
-	color: #73B21A;
-	-webkit-transition: all .3s ease;
-	-o-transition: all .3s ease;
-	transition: all .3s ease;	
+@keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
 }
-
-.time{
-	border-bottom: 1px solid #fff;
-	padding-bottom: 7px;
+.hvr-bob {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-.time:hover{
-	border-color:#73B21A;
-}
-
-.time:hover .time-text{
-	color: #73B21A;
-}
-
-.f-bottom-page-link li a:hover{
-	color: #73B21A;
+.hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .4s, 1.5s;
+  animation-duration: .4s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
 }
 
 /*
-==================================
-Footer Section
-==================================
-*/
-
-
-/*
-==================================
-Scroll to Top
-==================================
-*/
-
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 999;
-  height: 35px;
-  width: 35px;
-}
-
-#myBtn:focus {
-  background-color: #73B21A;
-}
-
-/*
-==================================
-Scroll to Top
-==================================
+===================================
+End Scroll to Top 
+===================================
 */
