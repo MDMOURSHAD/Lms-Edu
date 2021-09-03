@@ -461,7 +461,6 @@
 	Start Course Categories Section Css
 	========================================
 	*/
-
 	.top-border, 
 	.bottom-border{
 	    width: 100%;   
@@ -616,7 +615,7 @@
 	.about-col,
 	.tools-col,
 	.touch-col{
-		width: 100% !important;
+		width: 50% !important;
 	}
 	.footer-bottom{
 		margin-top: 30px;
@@ -684,6 +683,10 @@
 	Start Course Categories Section Css
 	========================================
 	*/
+	.categories-row {
+	    margin-left: 0px;
+	    margin-right: 0px;
+	}
 	.categories-title h2{
 		font-size: 30px;
 	}
@@ -701,6 +704,20 @@
 	Start Top Courses  Section Css
 	========================================
 	*/
+	.top-courses-row {
+	    margin-left: 0px;
+	    margin-right: 0px;
+	}
+	.top-courses-item {
+	    min-height: auto;
+	}
+	.top-courses-specefication {
+	    padding-bottom: 40px;
+	    padding-left: 20px;
+	}
+	.top-courses-specefication p{
+	    margin-top: 15px;
+	}
 	/*
 	========================================
 	End Top Courses  Section Css
@@ -712,6 +729,13 @@
 	Start Popular Course Section Css
 	========================================
 	*/
+	.popular-course-row {
+	    margin-right: 0px;
+	    margin-left: 0px;
+	}
+	.popular-course-row > * {
+	    margin-bottom: 0px;
+	}
 	/*
 	========================================
 	End Popular Course Section Css
@@ -723,6 +747,22 @@
 	Start Best Sell Section Css
 	========================================
 	*/
+	.best-sell-title p {
+	    width: 77%;
+	}
+	.best-sell-row {
+	    margin-right: 0px;
+	    margin-left: 0px;
+	}
+	.best-sell-item {
+	    min-height: auto;
+	}
+	.best-sell-specefication {
+	    padding-left: 24px;
+	}
+	.best-sell-specefication p{
+	    margin-top: 15px;
+	}
 	/*
 	========================================
 	End Best Sell Section Css
@@ -734,6 +774,14 @@
 	Start Achieve Goals Section Css
 	========================================
 	*/
+	.achieve-goals-row{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.achieve-goals-row > *{
+		padding-left: 12px;
+		padding-right: 12px;
+	}
 	/*
 	========================================
 	End Achieve Goals Section Css
@@ -745,6 +793,22 @@
 	Start  clients-appriciation Section Css
 	========================================
 	*/
+	.clients-appriciation-row {
+	    margin-top: 45px;
+	    margin-right: 0px;
+	    margin-left: 0px;
+	}
+	.clients-appriciation-row > *{
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.blockquote-desc {
+	    width: 98%;
+	}
+	.clients-appriciation-desc img {
+		top: 0;
+		left: 20px;
+		}
 	/*
 	========================================
 	End  clients-appriciation Section Css
@@ -756,6 +820,12 @@
 	Start Brand Section Css
 	========================================
 	*/
+	.brand-section {
+	    padding-top: 25px;
+	}
+	.brand-title span{
+		font-size: 25px;
+	}
 	/*
 	========================================
 	End Brand Section Css
@@ -767,6 +837,10 @@
 	Start Blog Section Css
 	========================================
 	*/
+	.blog-container{
+		padding-left: 12px;
+		padding-right: 12px;
+	}
 	/*
 	========================================
 	End Blog Section Css
@@ -778,6 +852,22 @@
 	Start Become Instructor Css
 	========================================
 	*/
+	.newslatter-container{
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.form-title h2{
+		font-size: 30px;
+	}
+	input[type="text"] {
+		margin-left: 6%;
+   	    width: 62%;
+	    background: transparent;
+	}
+	.form-area form input[type=submit] {
+	    font-size: 14px;
+	    width: 30%;
+	}
 	/*
 	========================================
 	End Become Instructor Section Css
@@ -789,6 +879,19 @@
 	Start Footer Section Css
 	========================================
 	*/
+	.footer-container{
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.address-col,
+	.help-col,
+	.about-col,
+	.tools-col,
+	.touch-col,
+	.footer-bottom{
+		width: 100% !important;
+	}
+	
 	/*
 	========================================
 	End Footer Section Css
