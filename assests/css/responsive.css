@@ -203,9 +203,7 @@
 	}
 
 	.categories-row {
-	    margin-top: 60px;
-	    margin-left: -8px;
-	    margin-right: -8px;
+	    margin-top: 60px;	
 	}
 	/*
 	========================================
@@ -232,11 +230,7 @@
 	.top-courses-item {
     	min-height: 520px;
 	}
-	.freelancing-course{
-		height: 225px;
-		object-fit: cover;
-		object-position: center;
-	}
+	
 	/*
 	========================================
 	End Top Courses  Section Css
@@ -420,6 +414,23 @@
 
 	/*
 	========================================
+	Start Reusable Components
+	========================================
+	*/
+	.mt-sm-05{
+		margin-top: 5px;
+	}
+	.mt-sm-10{
+		margin-top: 10px;
+	}
+	/*
+	========================================
+	End Reusable Components
+	========================================
+	*/
+
+	/*
+	========================================
 	Start Header Section Css
 	========================================
 	*/
@@ -477,6 +488,219 @@
 	    margin-left: auto;
 	    margin-right: auto;
 	}
+	/*
+	========================================
+	End Top Courses  Section Css
+	========================================
+	*/
+
+	/*
+	========================================
+	Start Popular Course Section Css
+	========================================
+	*/
+	.popular-course-title p {
+	    width: 70%;
+	    margin-left: auto;
+	    margin-top: 18px;
+	    margin-right: auto;
+	}
+	/*
+	========================================
+	End Popular Course Section Css
+	========================================
+	*/
+
+	/*
+	========================================
+	Start Best Sell Section Css
+	========================================
+	*/
+	.best-sell-title p {
+	    margin-right: auto;
+	    margin-left: auto;
+	}
+	.best-sell-item{
+		min-height: 497px;
+	}
+	/*
+	========================================
+	End Best Sell Section Css
+	========================================
+	*/
+
+	/*
+	========================================
+	Start Achieve Goals Section Css
+	========================================
+	*/
+	.achieve-goals-title p {
+	    width: 75%;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.achieve-goals-list{
+		padding-bottom: 45px;
+		padding-top: 50px;
+	}
+	/*
+	========================================
+	End Achieve Goals Section Css
+	========================================
+	*/
+
+	/*
+	========================================
+	Start  clients-appriciation Section Css
+	========================================
+	*/
+	.clients-appriciation-title p {
+	    width: 70%;
+	    margin-left: auto;
+	 	margin-right: auto;
+	}
+	.blockquote-desc {
+	    width: 92%;
+	}
+	/*
+	========================================
+	End  clients-appriciation Section Css
+	========================================
+	*/
+
+	/*
+	========================================
+	Start Blog Section Css
+	========================================
+	*/
+	.blog-title p {
+	    width: 75%;
+	}
+	.blog-desc {
+	    padding-left: 25px;
+	    padding-right: 25px;
+	}
+	.love-comment{
+		margin-top: 5px;
+	}
+	/*
+	========================================
+	End Blog Section Css
+	========================================
+	*/
+
+	/*
+	========================================
+	Start Become Instructor Css
+	========================================
+	*/
+	.form-area form {
+	    width: 100%;
+	}
+	input[type="text"]{
+	    width: 57%;
+	}
+	/*
+	========================================
+	End Become Instructor Section Css
+	========================================
+	*/
+
+	/*
+	========================================
+	Start Footer Section Css
+	========================================
+	*/
+	.address-col,
+	.help-col,
+	.about-col,
+	.tools-col,
+	.touch-col{
+		width: 100% !important;
+	}
+	.footer-bottom{
+		margin-top: 30px;
+	}
+
+	/*
+	========================================
+	End Footer Section Css
+	========================================
+	*/
+}
+
+@media (max-width: 575px) {
+
+	/*
+	========================================
+	Start Reusable Components
+	========================================
+	*/
+	.px-xs-12{
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	/*
+	========================================
+	End Reusable Components
+	========================================
+	*/
+
+	/*
+	========================================
+	Start Header Section Css
+	========================================
+	*/
+
+	/*
+	====================
+	Start Hero
+	====================
+	*/
+	.hero-title h1 {
+	    font-size: 38px;
+	}
+	.hero-title p {
+	    margin-bottom: 35px;
+	}
+	.hero-content a {
+	    padding: 20px 36px;
+	    font-size: 14px;
+	}
+	/*
+	====================
+	End Hero
+	====================
+	*/
+
+	/*
+	========================================
+	End Header Section Css
+	========================================
+	*/
+
+	/*
+	========================================
+	Start Course Categories Section Css
+	========================================
+	*/
+	.categories-title h2{
+		font-size: 30px;
+	}
+	.categories-title h2::after {
+	    top: 50px;
+	}
+	/*
+	========================================
+	End Course Categories Section Css
+	========================================
+	*/
+
+	/*
+	========================================
+	Start Top Courses  Section Css
+	========================================
+	*/
 	/*
 	========================================
 	End Top Courses  Section Css
@@ -570,10 +794,6 @@
 	End Footer Section Css
 	========================================
 	*/
-}
-
-@media (max-width: 575px) {
-
 }
 
 
