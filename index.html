@@ -18,7 +18,7 @@
 		<!-- Css Files -->
 		<link rel="stylesheet" type="text/css" href="assests/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="assests/css/spacing.css">
-		<link rel="stylesheet" type="text/css" href="assests/js/slicknav.min.css">
+		<link rel="stylesheet" type="text/css" href="assests/css/ace-responsive-menu.css">
 		<link rel="stylesheet" type="text/css" href="assests/css/lity.min.css">
 		<link rel="stylesheet" type="text/css" href="assests/css/swiper-bundle.min.css">
 		<link rel="stylesheet" type="text/css" href="assests/css/style.css">
@@ -60,7 +60,7 @@
 									<img src="assests/images/logo.png" class="img-fluid" alt="logo">
 								</a>
 							</div>
-							<div class="main-menu ps-100">
+							<div class="main-menu ps-100 d-none d-lg-block">
 								<ul>
 									<li class="d-inline-block me-45"><a href="#" class="font-opensans-600 font-size-16 font-color-f2 text-capitalize">Home</a></li>
 									<li class="d-inline-block me-45"><a href="#" class="font-opensans-600 font-size-16 font-color-f2 text-capitalize">Courses</a></li>
@@ -70,7 +70,7 @@
 							</div>
 						</div>
 						<!-- Login Signup -->
-						<div class="login-signup">
+						<div class="login-signup d-none d-lg-block">
 							<ul>
 								<li class="d-inline-block me-35"><a href="#" class="font-opensans-600 font-size-16 font-color-f2 text-capitalize"><span class="icon-search-solid"></span></a></li>
 								<li class="d-inline-block me-45"><a href="#" class="font-opensans-600 font-size-16 font-color-f2 text-capitalize"><span class="icon-cart-arrow-down-solid"></span></a></li>
@@ -79,7 +79,35 @@
 								<li class="d-inline-block"><a href="#" class="font-opensans-600 font-size-16 font-color-f2 text-capitalize"><span class="icon-sign-in-alt-solid"></span><span class="ms-10">Login</span></a></li>
 							</ul>
 						</div>
+						<!-- Seaarch And Add to Cart From Md Device -->
+						<div class="login-signup d-lg-none">
+							<ul>
+								<li class="d-inline-block me-35"><a href="#" class="font-opensans-600 font-size-16 font-color-f2 text-capitalize"><span class="icon-search-solid"></span></a></li>
+								<li class="d-inline-block me-45"><a href="#" class="font-opensans-600 font-size-16 font-color-f2 text-capitalize"><span class="icon-cart-arrow-down-solid"></span></a></li>
+							</ul>
+						</div>
+						<!-- Hamburger Menu -->
+						<div class="hamburger-menu">
+						 	<!-- site menu/nav -->
+							 <div class="site-navbar">			       
+						        <!-- nav-toggler for mobile version only -->
+						        <button class="nav-toggler">
+						          <span></span>
+					        	</button>
+		      				</div>
+						</div>
 					</div>
+				</div>
+				<div class="hamburger-menu">
+				 	<!-- site menu/nav -->
+					 <div class="site-navbar">			       
+				        <ul>
+				          <li><a href="#">home</a></li>
+				          <li><a href="#">about</a></li>
+				          <li><a href="#">service</a></li>
+				          <li><a href="#">contact</a></li>
+				        </ul>
+      				</div>
 				</div>
 			</nav>
 			<!-- Hero Area -->
@@ -1022,12 +1050,40 @@
 
 		<!-- Js Files -->
 		<script src="assests/js/jquery.min.js"></script>
-		<script src="assests/js/jquery.slicknav.min.js"></script>
+		<script src="assests/js/ace-responsive-menu-min.js"></script>
 		<script src="assests/js/lity.min.js"></script>
 		<script src="assests/js/swiper-bundle.min.js"></script>
 		<script src="assests/js/main.js"></script>
 			 
 		<script>
+			// Hamburger Mobile Menu
+			const navToggler = document.querySelector('.nav-toggler');
+			const navMenu = document.querySelector('.site-navbar ul');
+			const navLinks = document.querySelectorAll('.site-navbar a');
+
+			// load all event listners
+			allEventListners();
+
+			// functions of all event listners
+			function allEventListners() {
+			  // toggler icon click event
+			  navToggler.addEventListener('click', togglerClick);
+			  // nav links click event
+			  navLinks.forEach( elem => elem.addEventListener('click', navLinkClick));
+			}
+
+			// togglerClick function
+			function togglerClick() {
+			  navToggler.classList.toggle('toggler-open');
+			  navMenu.classList.toggle('open');
+			}
+
+			// navLinkClick function
+			function navLinkClick() {
+			  if(navMenu.classList.contains('open')) {
+			    navToggler.click();
+			  }
+			}
 			// Brand Slider 
 			   var swiper = new Swiper('.brand-swiper', {
 			      loop: true,
@@ -1104,12 +1160,6 @@
 				  }
 			      
 			    });
-
-			   $(function(){
-			        $('#menu').slicknav();
-			    });
-			   
-
 		</script>
 
 		

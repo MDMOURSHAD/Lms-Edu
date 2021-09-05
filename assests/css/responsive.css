@@ -165,7 +165,13 @@
 	Start Header Section Css
 	========================================
 	*/
-
+	.nav{
+		min-height: 60px;
+		position: relative;
+		padding-top: 0px;
+		line-height: 60px;
+		padding-bottom: 0px;
+	}
 	/*
 	====================
 	Start Hero
@@ -185,6 +191,24 @@
 	End Hero
 	====================
 	*/
+
+	/*
+	=====================
+    Start Hamburger Menu
+    =====================
+	*/
+    .hamburger-menu {
+      display: block;
+    }
+    .site-navbar {
+		    display: flex;
+		    align-items: center;
+		}
+    /*
+    =====================
+    End Hamburger Menu
+    =====================
+    */
 
 	/*
 	========================================

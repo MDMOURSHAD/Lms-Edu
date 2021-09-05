@@ -285,6 +285,105 @@ End Preloader
 */
 
 /*
+=====================
+Start Hamburger Menu
+=====================
+*/
+
+.hamburger-menu {
+   display: none;
+}
+
+.site-navbar ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   display: flex; 
+   position: absolute;
+   width: 100%;
+   height: calc(100vh - 77px);
+   left: 0;
+   top: 77px;
+   flex-direction: column;
+   align-items: center;
+   background-color: #ab0534;
+   max-height: 0;
+   overflow: hidden;
+   transition: .5s;
+}
+
+.site-navbar ul li {
+   width: 100%;
+   text-align: center;
+}
+
+.site-navbar ul li a {
+   color: #fff;
+   display: block;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+
+.site-navbar ul li a:hover {
+   background: rgba(255, 255, 255, .1);
+}
+
+.site-navbar ul.open {
+   max-height: 100vh;
+   overflow: visible;
+}
+
+
+/* nav-toggler css start */
+
+.nav-toggler {
+   border: 3px solid #fff !important;
+   padding: 5px;
+   background-color: transparent;
+   cursor: pointer;
+   height: 39px;
+}
+
+.nav-toggler span,
+.nav-toggler span:before,
+.nav-toggler span:after {
+   width: 28px;
+   height: 3px;
+   background-color: #fff;
+   display: block;
+   transition: .3s;
+}
+
+.nav-toggler span:before {
+   content: '';
+   transform: translateY(-9px);
+}
+
+.nav-toggler span:after {
+   content: '';
+   transform: translateY(6px);
+}
+
+.nav-toggler.toggler-open span {
+   background-color: transparent;
+}
+
+.nav-toggler.toggler-open span:before {
+   transform: translateY(0px) rotate(45deg);
+}
+
+.nav-toggler.toggler-open span:after {
+   transform: translateY(-3px) rotate(-45deg);
+}
+
+/* nav-toggler css End */
+
+/*
+=====================
+End Hamburger Menu
+=====================
+*/
+/*
 ========================================
 Start Header Section Css
 ========================================
