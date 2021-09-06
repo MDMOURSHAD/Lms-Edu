@@ -18,7 +18,7 @@
 		<!-- Css Files -->
 		<link rel="stylesheet" type="text/css" href="assests/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="assests/css/spacing.css">
-		<link rel="stylesheet" type="text/css" href="assests/css/ace-responsive-menu.css">
+		<link rel="stylesheet" type="text/css" href="assests/css/aos.css">
 		<link rel="stylesheet" type="text/css" href="assests/css/lity.min.css">
 		<link rel="stylesheet" type="text/css" href="assests/css/swiper-bundle.min.css">
 		<link rel="stylesheet" type="text/css" href="assests/css/style.css">
@@ -34,7 +34,7 @@
 		-->
 
 		<div class="preloader">
-			<img src="assests/images/Pulse-3.3s-111px.gif" alt="preloader-img">
+			<img src="assests/images/ezgif.com-gif-maker.gif" alt="preloader-img">
 		</div>
 
 		<!--
@@ -48,9 +48,9 @@
 		Start Header Section
 		========================================
 		-->
-		<header class="bg-color-ab">
+		<header class="bg-color-ab" id="header">
 			<!-- NavBar -->
-			<nav class="nav py-25">
+			<nav class="nav py-25 px-xs-12">
 				<div class="container">
 					<div class="navbar d-flex align-items-center justify-content-between">
 						<!-- Logo Menu -->
@@ -62,10 +62,10 @@
 							</div>
 							<div class="main-menu ps-100 d-none d-lg-block">
 								<ul>
-									<li class="d-inline-block me-45"><a href="#" class="font-opensans-600 font-size-16 font-color-f2 text-capitalize">Home</a></li>
-									<li class="d-inline-block me-45"><a href="#" class="font-opensans-600 font-size-16 font-color-f2 text-capitalize">Courses</a></li>
-									<li class="d-inline-block me-45"><a href="#" class="font-opensans-600 font-size-16 font-color-f2 text-capitalize">Pages</a></li>
-									<li class="d-inline-block me-45"><a href="#" class="font-opensans-600 font-size-16 font-color-f2 text-capitalize">Blog</a></li>
+									<li class="d-inline-block me-45"><a href="#header" class="hover-underline-animation font-opensans-600 font-size-16 font-color-f2 text-capitalize">Home</a></li>
+									<li class="d-inline-block me-45"><a href="#course" class="hover-underline-animation font-opensans-600 font-size-16 font-color-f2 text-capitalize">Courses</a></li>
+									<li class="d-inline-block me-45"><a href="#testimonial" class="hover-underline-animation font-opensans-600 font-size-16 font-color-f2 text-capitalize">Testimonial</a></li>
+									<li class="d-inline-block me-45"><a href="#blog" class="hover-underline-animation font-opensans-600 font-size-16 font-color-f2 text-capitalize">Blog</a></li>
 								</ul>
 							</div>
 						</div>
@@ -75,7 +75,7 @@
 								<li class="d-inline-block me-35"><a href="#" class="font-opensans-600 font-size-16 font-color-f2 text-capitalize"><span class="icon-search-solid"></span></a></li>
 								<li class="d-inline-block me-45"><a href="#" class="font-opensans-600 font-size-16 font-color-f2 text-capitalize"><span class="icon-cart-arrow-down-solid"></span></a></li>
 								<li class="d-inline-block"><a href="#" class="font-opensans-600 font-size-16 font-color-f2 text-capitalize"><span class="icon-user-solid"></span><span class="ms-10">Register</span></a></li>
-								<li class="d-inline-block mx-05"><span  class="font-opensans-600 font-size-16 font-color-f2 text-capitalize">/<span></li>
+								<li class="d-inline-block mx-05"><span  class="font-opensans-600 font-size-16 font-color-f2 text-capitalize"></span></li>
 								<li class="d-inline-block"><a href="#" class="font-opensans-600 font-size-16 font-color-f2 text-capitalize"><span class="icon-sign-in-alt-solid"></span><span class="ms-10">Login</span></a></li>
 							</ul>
 						</div>
@@ -106,6 +106,8 @@
 				          <li><a href="#">about</a></li>
 				          <li><a href="#">service</a></li>
 				          <li><a href="#">contact</a></li>
+				          <li><a href="#" class="font-opensans-600 font-size-16 font-color-f2 text-capitalize"><span class="icon-user-solid"></span><span class="ms-10">Register</span></a></li>
+				          <li><a href="#" class="font-opensans-600 font-size-16 font-color-f2 text-capitalize"><span class="icon-sign-in-alt-solid"></span><span class="ms-10">Login</span></a></li>
 				        </ul>
       				</div>
 				</div>
@@ -114,12 +116,12 @@
 			<div class="hero">
 				<div class="container">
 					<div class="hero-content text-center pt-90 px-xs-12">
-						<div class="hero-title mb-60">
+						<div class="hero-title mb-60" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="4000">
 							<h1 class="font-opensans-700 font-color-f4 font-size-60">Learn Excilence in Teaching.</h1>
 							<p class="mt-30 mb-45 font-opensans-400 font-color-f4 font-size-24">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-							<a class="rounded-pill font-size-16 font-opensans-600 font-color-f2 text-uppercase bg-color-ab" href="#">EXPLORE COURSES</a>
+							<a class="rounded-pill hvr-pulse-grow font-size-16 font-opensans-600 font-color-f2 text-uppercase bg-color-ab" href="#">EXPLORE COURSES</a>
 						</div>
-						<div class="hero-img">
+						<div class="hero-img" data-aos="fade-right"  data-aos-duration="3000">
 							<img src="assests/images/hero-img.png" class="img-fluid" alt="hero-img">
 						</div>
 					</div>
@@ -139,13 +141,13 @@
 			Start Course Categories Section
 			========================================
 			-->
-			<section class="course-categories bg-color-f4">
+			<section class="course-categories bg-color-f4" id="course">
 				<div class="container">
 					<div class="categories-title text-center">
 						<h2 class="position-relative text-capitalize font-opensans-700 font-size-36 font-color-00">Course Categories</h2>
 					</div>
 					<div class="row categories-row">
-						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+						<div class="col-xl-2  col-lg-3 col-md-4 col-sm-6" data-aos="flip-left" data-aos-duration="3000">
 							<div class="categories-list text-center pt-40 pb-45 position-relative transition-ease-3s">
 								<span class="icon-heart font-size-36 font-color-ab transition-ease-3s"></span>
 								<h3 class="mt-10 font-opensans-400 font-size-16 font-color-33 transition-ease-3s transition-ease-3s">Development</h3>
@@ -155,7 +157,7 @@
 								<div class="right-border transition-ease-3s position-absolute"></div>
 							</div>
 						</div>
-						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6" data-aos="flip-right" data-aos-duration="3000">
 							<div class="categories-list text-center pt-40 pb-45 position-relative transition-ease-3s">
 								<span class="icon-heart font-size-36 font-color-ab transition-ease-3s"></span>
 								<h3 class="mt-10 font-opensans-400 font-size-16 font-color-33 transition-ease-3s transition-ease-3s">Software</h3>
@@ -165,7 +167,7 @@
 								<div class="right-border transition-ease-3s position-absolute"></div>
 							</div>
 						</div>
-						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6" data-aos="flip-left" data-aos-duration="3000">
 							<div class="categories-list text-center pt-40 pb-45 position-relative transition-ease-3s">
 								<span class="icon-heart font-size-36 font-color-ab transition-ease-3s"></span>
 								<h3 class="mt-10 font-opensans-400 font-size-16 font-color-33 transition-ease-3s transition-ease-3s">Design</h3>
@@ -175,7 +177,7 @@
 								<div class="right-border transition-ease-3s position-absolute"></div>
 							</div>
 						</div>
-						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6" data-aos="flip-right" data-aos-duration="3000">
 							<div class="categories-list text-center pt-40 pb-45 position-relative transition-ease-3s">
 								<span class="icon-heart font-size-36 font-color-ab transition-ease-3s"></span>
 								<h3 class="mt-10 font-opensans-400 font-size-16 font-color-33 transition-ease-3s transition-ease-3s">Business</h3>
@@ -185,7 +187,7 @@
 								<div class="right-border transition-ease-3s position-absolute"></div>
 							</div>
 						</div>
-						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6" data-aos="flip-left" data-aos-duration="3000">
 							<div class="categories-list text-center pt-40 pb-45 position-relative transition-ease-3s">
 								<span class="icon-heart font-size-36 font-color-ab transition-ease-3s"></span>
 								<h3 class="mt-10 font-opensans-400 font-size-16 font-color-33 transition-ease-3s transition-ease-3s">Lifestyle</h3>
@@ -195,7 +197,7 @@
 								<div class="right-border transition-ease-3s position-absolute"></div>
 							</div>
 						</div>
-						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6" data-aos="flip-right" data-aos-duration="3000">
 							<div class="categories-list text-center pt-40 pb-45 position-relative transition-ease-3s">
 								<span class="icon-heart font-size-36 font-color-ab transition-ease-3s"></span>
 								<h3 class="mt-10 font-opensans-400 font-size-16 font-color-33 transition-ease-3s transition-ease-3s">Photography</h3>
@@ -205,7 +207,7 @@
 								<div class="right-border transition-ease-3s position-absolute"></div>
 							</div>
 						</div>
-						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6" data-aos="flip-left" data-aos-duration="3000">
 							<div class="categories-list text-center pt-40 pb-45 position-relative transition-ease-3s">
 								<span class="icon-heart font-size-36 font-color-ab transition-ease-3s"></span>
 								<h3 class="mt-10 font-opensans-400 font-size-16 font-color-33 transition-ease-3s transition-ease-3s">Joomla</h3>
@@ -215,7 +217,7 @@
 								<div class="right-border transition-ease-3s position-absolute"></div>
 							</div>
 						</div>
-						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6" data-aos="flip-right" data-aos-duration="3000">
 							<div class="categories-list text-center pt-40 pb-45 position-relative transition-ease-3s">
 								<span class="icon-heart font-size-36 font-color-ab transition-ease-3s"></span>
 								<h3 class="mt-10 font-opensans-400 font-size-16 font-color-33 transition-ease-3s transition-ease-3s">Wordpress</h3>
@@ -225,7 +227,7 @@
 								<div class="right-border transition-ease-3s position-absolute"></div>
 							</div>
 						</div>
-						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6" data-aos="flip-left" data-aos-duration="3000">
 							<div class="categories-list text-center pt-40 pb-45 position-relative transition-ease-3s">
 								<span class="icon-heart font-size-36 font-color-ab transition-ease-3s"></span>
 								<h3 class="mt-10 font-opensans-400 font-size-16 font-color-33 transition-ease-3s transition-ease-3s">Language</h3>
@@ -235,7 +237,7 @@
 								<div class="right-border transition-ease-3s position-absolute"></div>
 							</div>
 						</div>
-						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6" data-aos="flip-right" data-aos-duration="3000">
 							<div class="categories-list text-center pt-40 pb-45 position-relative transition-ease-3s">
 								<span class="icon-heart font-size-36 font-color-ab transition-ease-3s"></span>
 								<h3 class="mt-10 font-opensans-400 font-size-16 font-color-33 transition-ease-3s transition-ease-3s">Music</h3>
@@ -245,7 +247,7 @@
 								<div class="right-border transition-ease-3s position-absolute"></div>
 							</div>
 						</div>
-						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6" data-aos="flip-left" data-aos-duration="3000">
 							<div class="categories-list text-center pt-40 pb-45 position-relative transition-ease-3s">
 								<span class="icon-heart font-size-36 font-color-ab transition-ease-3s"></span>
 								<h3 class="mt-10 font-opensans-400 font-size-16 font-color-33 transition-ease-3s transition-ease-3s">Phtoshop</h3>
@@ -255,7 +257,7 @@
 								<div class="right-border transition-ease-3s position-absolute"></div>
 							</div>
 						</div>
-						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6" data-aos="flip-right" data-aos-duration="3000">
 							<div class="categories-list text-center pt-40 pb-45 position-relative transition-ease-3s">
 								<span class="icon-heart font-size-36 font-color-ab transition-ease-3s"></span>
 								<h3 class="mt-10 font-opensans-400 font-size-16 font-color-33 transition-ease-3s transition-ease-3s">Medicine</h3>
@@ -288,11 +290,11 @@
 							<p class="font-roboto-400 font-size-14 font-color-66">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum venenatis mollis. </p>
 						</div>
 						<div class="top-courses-btn d-none d-md-block">
-							<a class="rounded-pill text-capitalize font-color-08 font-size-15 font-roboto-500" href="#">VIEW MORE</a>
+							<a class="rounded-pill animated-fill-button text-capitalize font-color-08 font-size-15 font-roboto-500" href="#">VIEW MORE</a>
 						</div>
 					</div>
 					<div class="row mt-95 top-courses-row">
-						<div class="col-sm-6 col-lg-4">
+						<div class="col-sm-6 col-lg-4" data-aos="zoom-out-up" data-aos-duration="3000">
 							<div class="top-courses-item border-hvr shadow-hvr">
 								<div class="top-courses-img position-relative">
 									<img src="assests/images/top-course1.png" alt="top-course" class="img-fluid img-100">
@@ -317,7 +319,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-6 col-lg-4">
+						<div class="col-sm-6 col-lg-4" data-aos="zoom-out-down" data-aos-duration="3000">
 							<div class="top-courses-item border-hvr shadow-hvr">
 								<div class="top-courses-img position-relative">
 									<img src="assests/images/top-course2.png" alt="top-course" class="img-fluid img-100">
@@ -342,7 +344,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-6 col-lg-4">
+						<div class="col-sm-6 col-lg-4" data-aos="zoom-out-up" data-aos-duration="3000">
 							<div class="top-courses-item border-hvr shadow-hvr">
 								<div class="top-courses-img position-relative">
 									<img src="assests/images/top-course3.png" alt="top-course" class="img-fluid img-100">
@@ -367,7 +369,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-6 col-lg-4">
+						<div class="col-sm-6 col-lg-4" data-aos="zoom-out-down" data-aos-duration="3000">
 							<div class="top-courses-item border-hvr shadow-hvr">
 								<div class="top-courses-img position-relative">
 									<img src="assests/images/top-course4.png" alt="top-course" class="img-fluid img-100 freelancing-course">
@@ -392,7 +394,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-6 col-lg-4">
+						<div class="col-sm-6 col-lg-4" data-aos="zoom-out-up" data-aos-duration="3000">
 							<div class="top-courses-item border-hvr shadow-hvr">
 								<div class="top-courses-img position-relative">
 									<img src="assests/images/top-course5.png" alt="top-course" class="img-fluid img-100">
@@ -417,7 +419,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-6 col-lg-4">
+						<div class="col-sm-6 col-lg-4" data-aos="zoom-out-down" data-aos-duration="3000">
 							<div class="top-courses-item border-hvr shadow-hvr">
 								<div class="top-courses-img position-relative">
 									<img src="assests/images/top-course6.png" alt="top-course" class="img-fluid img-100">
@@ -464,19 +466,19 @@
 						<p class="font-roboto-400 font-size-14 font-color-66">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum venenatis mollis. </p>
 					</div>
 					<div class="row popular-course-row mt-55">
-						<div class="col-md-4">
+						<div class="col-md-4" data-aos="fade-up-right" data-aos-duration="3000">
 							<div class="popular-course-img position-relative">
 								<img src="assests/images/popular-course1.png" class="img-100 img-fluid" alt="popular-course">
 								<h2 class="font-roboto-700 position-absolute font-size-24 font-color-ff">Top Rated</h2>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4" data-aos="fade-up" data-aos-duration="3000">
 							<div class="popular-course-img position-relative">
 								<img src="assests/images/popular-course2.png" class="img-100 img-fluid" alt="popular-course">
 								<h2 class="font-roboto-700 position-absolute font-size-24 font-color-ff">Trending</h2>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4" data-aos="fade-up-left" data-aos-duration="3000">
 							<div class="popular-course-img position-relative">
 								<img src="assests/images/popular-course3.png" class="img-100 img-fluid" alt="popular-course">
 								<h2 class="font-roboto-700 position-absolute text-center text-sm-start font-size-24 font-color-ff">New and Noteworthy</h2>
@@ -505,11 +507,11 @@
 							<p class="font-roboto-400 font-size-14 font-color-66">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum venenatis mollis. </p>
 						</div>
 						<div class="best-sell-btn d-none d-md-block">
-							<a class="rounded-pill text-capitalize font-color-08 font-size-15 font-roboto-500" href="#">VIEW MORE</a>
+							<a class="rounded-pill animated-fill-button text-capitalize font-color-08 font-size-15 font-roboto-500" href="#">VIEW MORE</a>
 						</div>
 					</div>
 					<div class="row best-sell-row">
-						<div class="col-lg-4 col-sm-6">
+						<div class="col-lg-4 col-sm-6" data-aos="zoom-in-right" data-aos-duration="2500">
 							<div class="best-sell-item border-hvr shadow-hvr">
 								<div class="best-sell-img">
 									<img src="assests/images/best-sell1.png" alt="best-sell" class="img-fluid img-100">
@@ -531,7 +533,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-sm-6">
+						<div class="col-lg-4 col-sm-6" data-aos="zoom-in-left" data-aos-duration="2500">
 							<div class="best-sell-item border-hvr shadow-hvr">
 								<div class="best-sell-img">
 									<img src="assests/images/best-sell2.png" alt="best-sell" class="img-fluid img-100">
@@ -553,7 +555,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-sm-6">
+						<div class="col-lg-4 col-sm-6" data-aos="zoom-in-right" data-aos-duration="2500">
 							<div class="best-sell-item border-hvr shadow-hvr">
 								<div class="best-sell-img">
 									<img src="assests/images/best-sell3.png" alt="best-sell" class="img-fluid img-100">
@@ -575,7 +577,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-sm-6">
+						<div class="col-lg-4 col-sm-6" data-aos="zoom-in-left" data-aos-duration="2500">
 							<div class="best-sell-item border-hvr shadow-hvr">
 								<div class="best-sell-img">
 									<img src="assests/images/best-sell4.png" alt="best-sell" class="img-fluid img-100">
@@ -597,7 +599,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-sm-6">
+						<div class="col-lg-4 col-sm-6" data-aos="zoom-in-right" data-aos-duration="2500">
 							<div class="best-sell-item border-hvr shadow-hvr">
 								<div class="best-sell-img">
 									<img src="assests/images/best-sell5.png" alt="best-sell" class="img-fluid img-100">
@@ -619,7 +621,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-sm-6">
+						<div class="col-lg-4 col-sm-6" data-aos="zoom-in-left" data-aos-duration="2500">
 							<div class="best-sell-item border-hvr shadow-hvr">
 								<div class="best-sell-img">
 									<img src="assests/images/best-sell6.png" alt="best-sell" class="img-fluid img-100">
@@ -662,42 +664,42 @@
 						<p class="font-roboto-400 font-size-14 font-color-66">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum venenatis mollis. </p>
 					</div>
 					<div class="row mt-75 achieve-goals-row">
-						<div class="col-lg-4 col-sm-6">
+						<div class="col-lg-4 col-sm-6" data-aos="fade-down-right" data-aos-duration="2500">
 							<div class="achieve-goals-list pt-70 pb-65 text-center border-hvr shadow-hvr">
 								<img src="assests/images/achieve-goals1.png" alt="achieve-goals" class="img-fluid">
 								<h3 class="font-size-18 mb-20 font-roboto-700 font-color-00">Expand Skill Development</h3>
 								<p class="font-roboto-400 font-size-14 font-color-4c">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac vulputate (...)</p>
 							</div>
 						</div>
-						<div class="col-lg-4 col-sm-6">
+						<div class="col-lg-4 col-sm-6" data-aos="fade-down-left" data-aos-duration="2500">
 							<div class="achieve-goals-list pt-70 pb-65 text-center border-hvr shadow-hvr">
 								<img src="assests/images/achieve-goals2.png" alt="achieve-goals" class="img-fluid">
 								<h3 class="font-size-18 mb-20 font-roboto-700 font-color-00">Self Learn</h3>
 								<p class="font-roboto-400 font-size-14 font-color-4c">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac vulputate (...)</p>
 							</div>
 						</div>
-						<div class="col-lg-4 col-sm-6">
+						<div class="col-lg-4 col-sm-6" data-aos="fade-down-right" data-aos-duration="2500">
 							<div class="achieve-goals-list pt-70 pb-65 text-center border-hvr shadow-hvr">
 								<img src="assests/images/achieve-goals3.png" alt="achieve-goals" class="img-fluid">
 								<h3 class="font-size-18 mb-20 font-roboto-700 font-color-00">Tech Jobs</h3>
 								<p class="font-roboto-400 font-size-14 font-color-4c">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac vulputate (...)</p>
 							</div>
 						</div>
-						<div class="col-lg-4 col-sm-6">
+						<div class="col-lg-4 col-sm-6" data-aos="fade-down-left" data-aos-duration="2500">
 							<div class="achieve-goals-list pt-70 pb-65 text-center border-hvr shadow-hvr">
 								<img src="assests/images/achieve-goals4.png" alt="achieve-goals" class="img-fluid">
 								<h3 class="font-size-18 mb-20 font-roboto-700 font-color-00">Unlock Your Potential</h3>
 								<p class="font-roboto-400 font-size-14 font-color-4c">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac vulputate (...)</p>
 							</div>
 						</div>
-						<div class="col-lg-4 col-sm-6">
+						<div class="col-lg-4 col-sm-6" data-aos="fade-down-right" data-aos-duration="2500">
 							<div class="achieve-goals-list pt-70 pb-65 text-center border-hvr shadow-hvr">
 								<img src="assests/images/achieve-goals5.png" alt="achieve-goals" class="img-fluid">
 								<h3 class="font-size-18 mb-20 font-roboto-700 font-color-00">Explore Your Passion</h3>
 								<p class="font-roboto-400 font-size-14 font-color-4c">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac vulputate (...)</p>
 							</div>
 						</div>
-						<div class="col-lg-4 col-sm-6">
+						<div class="col-lg-4 col-sm-6" data-aos="fade-down-left" data-aos-duration="2500">
 							<div class="achieve-goals-list pt-70 pb-65 text-center border-hvr shadow-hvr">
 								<img src="assests/images/achieve-goals6.png" alt="achieve-goals" class="img-fluid">
 								<h3 class="font-size-18 mb-20 font-roboto-700 font-color-00">Analytics Work</h3>
@@ -719,14 +721,14 @@
 			Start clients-appriciation Section
 			========================================
 			-->
-			<section class="clients-appriciation  bg-color-f7">
+			<section class="clients-appriciation  bg-color-f7" id="testimonial">
 				<div class="container">
 					<div class="clients-appriciation-title text-center text-md-start">
 						<h2 class="font-size-24 font-color-00 font-roboto-700">Client’s Appriciation</h2>
 						<p class="font-roboto-400 font-size-14 font-color-66">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum venenatis mollis. </p>
 					</div>
 					<div class="row clients-appriciation-row">
-						<div class="col-md-6 pb-100">
+						<div class="col-md-6 pb-100" data-aos="flip-left" data-aos-duration="3000">
 							<div class="clients-appriciation-desc position-relative">
 								<p class="blockquote-desc text-center text-md-start mx-auto mx-md-0 pt-30 ps-35 font-color-4d font-size-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a viverra nisl. Morbi in ornare nibh, sed efficitur neque. Proin efficitur odio eget pulvinar hendrerit.</p>
 								<img src="assests/images/bloclquote-img.png" alt="bloclquote-img" class="img-fluid position-absolute">
@@ -741,7 +743,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 video-col pb-100">
+						<div class="col-md-6 video-col pb-100" data-aos="flip-right" data-aos-duration="3000">
 							<div class="video-area position-relative">
 								<img src="assests/images/testimonial-video.png" class="img-fluid" alt="testimonial-video">
 								<a href="//www.youtube.com/watch?v=XSGBVzeBUbk" data-lity class="position-absolute d-flex align-items-center justify-content-center">
@@ -767,6 +769,7 @@
 				<div class="container">
 					<div class="brand-title text-center">
 						<span class="font-roboto-300 font-size-30 font-color-00">LMSedu is trusted by 322,000+ students and companies worldwide</span>
+						<h3></h3>
 					</div>
 					<div class="swiper brand-swiper mt-55">
 						<div class="swiper-wrapper">
@@ -812,7 +815,7 @@
 			Start Blog  Section
 			========================================
 			-->
-			<section class="blog-seciton">
+			<section class="blog-seciton" id="blog">
 				<div class="container blog-container">
 					<div class="blog-title text-center text-md-start mb-100">
 						<h2 class="font-size-24 font-color-00 font-opensans-700">Our Blog</h2>
@@ -933,7 +936,7 @@
 					<div class="form-title pb-45 text-center">
 						<h2 class="font-roboto-500 font-color-33 font-size-36">Become A Instructor</h2>
 					</div>
-					<div class="form-area">
+					<div class="form-area" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="3000">
 						<form class="mx-auto bg-color-ff rounded-pill">
 							<input type="text" name="text" placeholder="Become A Instructor" autocomplete="off">
 							<input type="submit" class="bg-color-ab rounded-pill"  value="JOIN">
@@ -1050,12 +1053,13 @@
 
 		<!-- Js Files -->
 		<script src="assests/js/jquery.min.js"></script>
-		<script src="assests/js/ace-responsive-menu-min.js"></script>
+		<script src="assests/js/aos.js"></script>
 		<script src="assests/js/lity.min.js"></script>
 		<script src="assests/js/swiper-bundle.min.js"></script>
 		<script src="assests/js/main.js"></script>
 			 
 		<script>
+
 			// Hamburger Mobile Menu
 			const navToggler = document.querySelector('.nav-toggler');
 			const navMenu = document.querySelector('.site-navbar ul');
@@ -1084,6 +1088,10 @@
 			    navToggler.click();
 			  }
 			}
+
+			// Aos Plugin 
+			AOS.init();
+
 			// Brand Slider 
 			   var swiper = new Swiper('.brand-swiper', {
 			      loop: true,

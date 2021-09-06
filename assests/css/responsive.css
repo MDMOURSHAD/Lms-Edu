@@ -1,928 +1,953 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 
 
 @media (max-width: 1399px) {
-	/*
-	========================================
-	Start Header Section Css
-	========================================
-	*/
+/*
+========================================
+Start Header Section Css
+========================================
+*/
 
-	/*
-	====================
-	Start Hero
-	====================
-	*/
-	.hero-title h1{
-		font-size: 55px;
-	}
+/*
+====================
+Start Hero
+====================
+*/
+.hero-title h1{
+	font-size: 55px;
+}
 
-	.hero-title p{
-		font-size: 20px;
-	}
-	/*
-	====================
-	End Hero
-	====================
-	*/
+.hero-title p{
+	font-size: 20px;
+}
+/*
+====================
+End Hero
+====================
+*/
 
-	/*
-	========================================
-	End Header Section Css
-	========================================
-	*/
+/*
+========================================
+End Header Section Css
+========================================
+*/
 }
 
 @media (max-width: 1199px) {
 
-	/*
-	========================================
-	Start Header Section Css
-	========================================
-	*/
+/*
+========================================
+Start Header Section Css
+========================================
+*/
 
-	/*
-	====================
-	Start Hero
-	====================
-	*/
-	.hero-content a {
-	    padding: 25px 55px;
-	}
-	/*
-	====================
-	End Hero
-	====================
-	*/
+/*
+====================
+Start Hero
+====================
+*/
+.hero-content a {
+    padding: 25px 55px;
+}
+/*
+====================
+End Hero
+====================
+*/
 
-	/*
-	========================================
-	End Header Section Css
-	========================================
-	*/
+/*
+========================================
+End Header Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start Course Categories Section Css
-	========================================
-	*/
-	.categories-row {
-	    margin-left: -12px;
-	    margin-right: -12px;
-	}
+/*
+========================================
+Start Course Categories Section Css
+========================================
+*/
+.categories-row {
+    margin-left: -12px;
+    margin-right: -12px;
+}
 
-	.categories-row > *{
-	  padding-left:12px;
-	  padding-right:12px;
-	  margin-top:24px;
-	}
-	/*
-	========================================
-	End Course Categories Section Css
-	========================================
-	*/
+.categories-row > *{
+  padding-left:12px;
+  padding-right:12px;
+  margin-top:24px;
+}
+/*
+========================================
+End Course Categories Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start Top Courses  Section Css
-	========================================
-	*/
-	.top-courses-row{
-	  margin-left:-12px;
-	  margin-right:-12px;
-	}
+/*
+========================================
+Start Top Courses  Section Css
+========================================
+*/
+.top-courses-row{
+  margin-left:-12px;
+  margin-right:-12px;
+}
 
-	.top-courses-row > *{
-	  padding-left:12px;
-	  padding-right:12px;
-	  margin-bottom: 24px;
-	}
+.top-courses-row > *{
+  padding-left:12px;
+  padding-right:12px;
+  margin-bottom: 24px;
+}
 
-	.top-courses-item {
-    	min-height: 304px;
-	}
+.top-courses-item {
+  	min-height: 304px;
+}
 
-	.top-courses-specefication{
-		padding-right: 23px;
-	}
-	/*
-	========================================
-	End Top Courses  Section Css
-	========================================
-	*/
+.top-courses-specefication{
+	padding-right: 23px;
+}
+/*
+========================================
+End Top Courses  Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start Best Sell Section Css
-	========================================
-	*/
-	.best-sell-row {
-	    margin-right: -12px;
-	    margin-left: -12px;
-	}
+/*
+========================================
+Start Best Sell Section Css
+========================================
+*/
+.best-sell-row {
+    margin-right: -12px;
+    margin-left: -12px;
+}
 
-	.best-sell-row > *{
-	  padding-left:12px;
-	  padding-right:12px;
-	  margin-bottom: 24px;
-	}
+.best-sell-row > *{
+  padding-left:12px;
+  padding-right:12px;
+  margin-bottom: 24px;
+}
 
-	.best-sell-specefication{
-		padding-right: 24px;
-	}
-	/*
-	========================================
-	End Best Sell Section Css
-	========================================
-	*/
+.best-sell-specefication{
+	padding-right: 24px;
+}
+/*
+========================================
+End Best Sell Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start Footer Section Css
-	========================================
-	*/
-	.address-col{
-		width: 33.3333333333%;
-	}
+/*
+========================================
+Start Footer Section Css
+========================================
+*/
+.address-col{
+	width: 33.3333333333%;
+}
 
-	.help-col,
-	.about-col,
-	.tools-col,
-	.touch-col{
-		width: 16.583%;
-	}
-	/*
-	========================================
-	End Footer Section Css
-	========================================
-	*/
+.help-col,
+.about-col,
+.tools-col,
+.touch-col{
+	width: 16.583%;
+}
+/*
+========================================
+End Footer Section Css
+========================================
+*/
 
 }
 
 @media (max-width: 991px) {
 
-	/*
-	========================================
-	Start Header Section Css
-	========================================
-	*/
-	.nav{
-		min-height: 60px;
-		position: relative;
-		padding-top: 0px;
-		line-height: 60px;
-		padding-bottom: 0px;
-	}
-	/*
-	====================
-	Start Hero
-	====================
-	*/
-	.hero-content {
-		padding-top: 70px;
-	}
-	.hero-title h1 {
-    	font-size: 45px;
-	}
-	.hero-title p {
-	    font-size: 18px;
-	}
-	/*
-	====================
-	End Hero
-	====================
-	*/
+/*
+========================================
+Start Header Section Css
+========================================
+*/
+.nav{
+	min-height: 60px;
+	position: relative;
+	padding-top: 0px;
+	line-height: 60px;
+	padding-bottom: 0px;
+}
+/*
+====================
+Start Hero
+====================
+*/
+.hero-content {
+	padding-top: 70px;
+}
+.hero-title h1 {
+  	font-size: 45px;
+}
+.hero-title p {
+    font-size: 18px;
+}
+/*
+====================
+End Hero
+====================
+*/
 
-	/*
-	=====================
-    Start Hamburger Menu
-    =====================
-	*/
-    .hamburger-menu {
-      display: block;
-    }
-    .site-navbar {
-		    display: flex;
-		    align-items: center;
-		}
-    /*
-    =====================
-    End Hamburger Menu
-    =====================
-    */
-
-	/*
-	========================================
-	Start Header Section Css
-	========================================
-	*/
-
-	/*
-	========================================
-	Start Course Categories Section Css
-	========================================
-	*/
-	.course-categories {
-     padding-top: 50px; 
-     padding-bottom: 60px; 
+/*
+=====================
+  Start Hamburger Menu
+  =====================
+*/
+  .hamburger-menu {
+    display: block;
+  }
+  .site-navbar {
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	    -webkit-box-align: center;
+	        -ms-flex-align: center;
+	            align-items: center;
 	}
+  /*
+  =====================
+  End Hamburger Menu
+  =====================
+  */
 
-	.categories-row {
-	    margin-top: 60px;	
-	}
-	/*
-	========================================
-	End Course Categories Section Css
-	========================================
+  /*
+	===================================
+	Start Sticky Menu
+	===================================
 	*/
 
-	/*
-	========================================
-	Start Top Courses  Section Css
-	========================================
-	*/
-	.top-courses {
-	    padding-top: 55px;
-	    padding-bottom: 35px;
-	}
-	.top-courses-row{
-		margin-top: 55px;
-	}
-	.top-courses-btn a,
-	.best-sell-btn a{
-    	padding: 17px 38px;
-	}
-	.top-courses-item {
-    	min-height: 520px;
-	}
-	
-	/*
-	========================================
-	End Top Courses  Section Css
-	========================================
-	*/
-
-	/*
-	========================================
-	Start Popular Course Section Css
-	========================================
-	*/
-	.popular-course {
-     	padding-top: 55px; 
-	    padding-bottom: 60px;
-	}
-
-	.popular-course-row {
-	    margin-right: -12px;
-	    margin-left: -12px;
-	    margin-top: 20px;
-	}
-
-	.popular-course-row > *{
-	    padding-left: 12px;
-	    padding-right: 12px;
-	    margin-bottom: 24px;
+	.sticky{
+	  padding: 0px !important;
 	}
 	/*
-	========================================
-	End Popular Course Section Css
-	========================================
+	===================================
+	End Sticky Menu
+	===================================
 	*/
 
-	/*
-	========================================
-	Start Best Sell Section Css
-	========================================
-	*/
-	.best-sell {
-	    padding-top: 60px;
-	    padding-bottom: 35px;
-	}
+/*
+========================================
+Start Header Section Css
+========================================
+*/
 
-	.best-sell-row {
-	    margin-top: 55px;
-	}
-	/*
-	========================================
-	End Best Sell Section Css
-	========================================
-	*/
+/*
+========================================
+Start Course Categories Section Css
+========================================
+*/
+.course-categories {
+   padding-top: 50px; 
+   padding-bottom: 60px; 
+}
 
-	/*
-	========================================
-	Start Achieve Goals Section Css
-	========================================
-	*/
-	.achieve-goals {
-	  	padding-top: 55px;
-	    padding-bottom: 60px;
-	}
+.categories-row {
+    margin-top: 60px;	
+}
+/*
+========================================
+End Course Categories Section Css
+========================================
+*/
 
-	.achieve-goals-row {
-	    margin-top: 35px;
-	}
-	/*
-	========================================
-	End Achieve Goals Section Css
-	========================================
-	*/
+/*
+========================================
+Start Top Courses  Section Css
+========================================
+*/
+.top-courses {
+    padding-top: 55px;
+    padding-bottom: 35px;
+}
+.top-courses-row{
+	margin-top: 55px;
+}
+.top-courses-btn a,
+.best-sell-btn a{
+  	padding: 17px 38px;
+}
+.top-courses-item {
+  	min-height: 520px;
+}
 
-	/*
-	========================================
-	Start  clients-appriciation Section Css
-	========================================
-	*/
-	.clients-appriciation {
-	     padding-top: 55px; 
-	}
+/*
+========================================
+End Top Courses  Section Css
+========================================
+*/
 
-	.clients-appriciation-row {
-	    margin-top: 55px;
-	}
+/*
+========================================
+Start Popular Course Section Css
+========================================
+*/
+.popular-course {
+   	padding-top: 55px; 
+    padding-bottom: 60px;
+}
 
-	.clients-appriciation-row .col-md-6:first-child{
-		padding-bottom: 60px;
-	}
+.popular-course-row {
+    margin-right: -12px;
+    margin-left: -12px;
+    margin-top: 20px;
+}
 
-	.blockquote-desc{
-		padding-left: 0px;
-	}
+.popular-course-row > *{
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 24px;
+}
+/*
+========================================
+End Popular Course Section Css
+========================================
+*/
 
-	.video-col{
-		padding-bottom: 60px;
-	}
+/*
+========================================
+Start Best Sell Section Css
+========================================
+*/
+.best-sell {
+    padding-top: 60px;
+    padding-bottom: 35px;
+}
+
+.best-sell-row {
+    margin-top: 55px;
+}
+/*
+========================================
+End Best Sell Section Css
+========================================
+*/
+
+/*
+========================================
+Start Achieve Goals Section Css
+========================================
+*/
+.achieve-goals {
+  	padding-top: 55px;
+    padding-bottom: 60px;
+}
+
+.achieve-goals-row {
+    margin-top: 35px;
+}
+/*
+========================================
+End Achieve Goals Section Css
+========================================
+*/
+
+/*
+========================================
+Start  clients-appriciation Section Css
+========================================
+*/
+.clients-appriciation {
+     padding-top: 55px; 
+}
+
+.clients-appriciation-row {
+    margin-top: 55px;
+}
+
+.clients-appriciation-row .col-md-6:first-child{
+	padding-bottom: 60px;
+}
+
+.blockquote-desc{
+	padding-left: 0px;
+}
+
+.video-col{
+	padding-bottom: 60px;
+}
 
 
-	/*
-	========================================
-	End  clients-appriciation Section Css
-	========================================
-	*/
+/*
+========================================
+End  clients-appriciation Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start Blog Section Css
-	========================================
-	*/
-	.blog-seciton {
-	    padding-top: 55px;
-	    padding-bottom: 60px;
-	}
+/*
+========================================
+Start Blog Section Css
+========================================
+*/
+.blog-seciton {
+    padding-top: 55px;
+    padding-bottom: 60px;
+}
 
-	.blog-title{
-		margin-bottom: 60px;
-	}
-	/*
-	========================================
-	End Blog Section Css
-	========================================
-	*/
+.blog-title{
+	margin-bottom: 60px;
+}
+/*
+========================================
+End Blog Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start Become Instructor Css
-	========================================
-	*/
+/*
+========================================
+Start Become Instructor Css
+========================================
+*/
 
-	.become-instructor {
-    	padding-top: 50px;
-    	padding-bottom: 60px;
-	}
+.become-instructor {
+  	padding-top: 50px;
+  	padding-bottom: 60px;
+}
 
-	.form-area form {
-	    width: 580px;
-	}
+.form-area form {
+    width: 580px;
+}
 
-	input[type="text"] {
-	    width: 58%;
-	}
+input[type="text"] {
+    width: 58%;
+}
 
-	/*
-	========================================
-	End Become Instructor Section Css
-	========================================
-	*/
+/*
+========================================
+End Become Instructor Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start Footer Section Css
-	========================================
-	*/
-	.footer {
-		padding-top: 70px;
-		padding-bottom: 70px;
-	}
-	.footer-row > *{
-		margin-bottom: 24px;
-	}
-	.address-col{
-		width: 33.3333333333%;
-	}
+/*
+========================================
+Start Footer Section Css
+========================================
+*/
+.footer {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.footer-row > *{
+	margin-bottom: 24px;
+}
+.address-col{
+	width: 33.3333333333%;
+}
 
-	.help-col,
-	.about-col{
-		width: 33.3333333333%;
-	}
+.help-col,
+.about-col{
+	width: 33.3333333333%;
+}
 
-	.tools-col,
-	.touch-col{
-		width: 33.3333333333%;
-	}	
-	/*
-	========================================
-	End Footer Section Css
-	========================================
-	*/
+.tools-col,
+.touch-col{
+	width: 33.3333333333%;
+}	
+/*
+========================================
+End Footer Section Css
+========================================
+*/
 }
 
 @media (max-width: 767px) {
 
-	/*
-	========================================
-	Start Reusable Components
-	========================================
-	*/
-	.mt-sm-05{
-		margin-top: 5px;
-	}
-	.mt-sm-10{
-		margin-top: 10px;
-	}
-	/*
-	========================================
-	End Reusable Components
-	========================================
-	*/
+/*
+========================================
+Start Reusable Components
+========================================
+*/
+.mt-sm-05{
+	margin-top: 5px;
+}
+.mt-sm-10{
+	margin-top: 10px;
+}
+/*
+========================================
+End Reusable Components
+========================================
+*/
 
-	/*
-	========================================
-	Start Header Section Css
-	========================================
-	*/
+/*
+========================================
+Start Header Section Css
+========================================
+*/
 
-	/*
-	====================
-	Start Hero
-	====================
-	*/
-	.hero-content a {
-	    padding: 20px 40px;
-	    font-size: 15px;
-	}
-	/*
-	====================
-	End Hero
-	====================
-	*/
+/*
+====================
+Start Hero
+====================
+*/
+.hero-content a {
+    padding: 20px 40px;
+    font-size: 15px;
+}
+/*
+====================
+End Hero
+====================
+*/
 
-	/*
-	========================================
-	End Header Section Css
-	========================================
-	*/
+/*
+========================================
+End Header Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start Course Categories Section Css
-	========================================
-	*/
-	.top-border, 
-	.bottom-border{
-	    width: 100%;   
-	}
+/*
+========================================
+Start Course Categories Section Css
+========================================
+*/
+.top-border, 
+.bottom-border{
+    width: 100%;   
+}
 
-	.left-border, 
-	.right-border{
-		height: 100%;
-	}
+.left-border, 
+.right-border{
+	height: 100%;
+}
 
-	/*
-	========================================
-	End Course Categories Section Css
-	========================================
-	*/
+/*
+========================================
+End Course Categories Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start Top Courses  Section Css
-	========================================
-	*/
-	.top-courses-desc p {
-    	width: 78%;
-	    margin-left: auto;
-	    margin-right: auto;
-	}
-	/*
-	========================================
-	End Top Courses  Section Css
-	========================================
-	*/
+/*
+========================================
+Start Top Courses  Section Css
+========================================
+*/
+.top-courses-desc p {
+  	width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*
+========================================
+End Top Courses  Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start Popular Course Section Css
-	========================================
-	*/
-	.popular-course-title p {
-	    width: 70%;
-	    margin-left: auto;
-	    margin-top: 18px;
-	    margin-right: auto;
-	}
-	/*
-	========================================
-	End Popular Course Section Css
-	========================================
-	*/
+/*
+========================================
+Start Popular Course Section Css
+========================================
+*/
+.popular-course-title p {
+    width: 70%;
+    margin-left: auto;
+    margin-top: 18px;
+    margin-right: auto;
+}
+/*
+========================================
+End Popular Course Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start Best Sell Section Css
-	========================================
-	*/
-	.best-sell-title p {
-	    margin-right: auto;
-	    margin-left: auto;
-	}
-	.best-sell-item{
-		min-height: 497px;
-	}
-	/*
-	========================================
-	End Best Sell Section Css
-	========================================
-	*/
+/*
+========================================
+Start Best Sell Section Css
+========================================
+*/
+.best-sell-title p {
+    margin-right: auto;
+    margin-left: auto;
+}
+.best-sell-item{
+	min-height: 497px;
+}
+/*
+========================================
+End Best Sell Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start Achieve Goals Section Css
-	========================================
-	*/
-	.achieve-goals-title p {
-	    width: 75%;
-	    margin-left: auto;
-	    margin-right: auto;
-	}
-	.achieve-goals-list{
-		padding-bottom: 45px;
-		padding-top: 50px;
-	}
-	/*
-	========================================
-	End Achieve Goals Section Css
-	========================================
-	*/
+/*
+========================================
+Start Achieve Goals Section Css
+========================================
+*/
+.achieve-goals-title p {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.achieve-goals-list{
+	padding-bottom: 45px;
+	padding-top: 50px;
+}
+/*
+========================================
+End Achieve Goals Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start  clients-appriciation Section Css
-	========================================
-	*/
-	.clients-appriciation-title p {
-	    width: 70%;
-	    margin-left: auto;
-	 	margin-right: auto;
-	}
-	.blockquote-desc {
-	    width: 92%;
-	}
-	/*
-	========================================
-	End  clients-appriciation Section Css
-	========================================
-	*/
+/*
+========================================
+Start  clients-appriciation Section Css
+========================================
+*/
+.clients-appriciation-title p {
+    width: 70%;
+    margin-left: auto;
+ 	margin-right: auto;
+}
+.blockquote-desc {
+    width: 92%;
+}
+/*
+========================================
+End  clients-appriciation Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start Blog Section Css
-	========================================
-	*/
-	.blog-title p {
-	    width: 75%;
-	}
-	.blog-desc {
-	    padding-left: 25px;
-	    padding-right: 25px;
-	}
-	.love-comment{
-		margin-top: 5px;
-	}
-	/*
-	========================================
-	End Blog Section Css
-	========================================
-	*/
+/*
+========================================
+Start Blog Section Css
+========================================
+*/
+.blog-title p {
+    width: 75%;
+}
+.blog-desc {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.love-comment{
+	margin-top: 5px;
+}
+/*
+========================================
+End Blog Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start Become Instructor Css
-	========================================
-	*/
-	.form-area form {
-	    width: 100%;
-	}
-	input[type="text"]{
-	    width: 57%;
-	}
-	/*
-	========================================
-	End Become Instructor Section Css
-	========================================
-	*/
+/*
+========================================
+Start Become Instructor Css
+========================================
+*/
+.form-area form {
+    width: 100%;
+}
+input[type="text"]{
+    width: 57%;
+}
+/*
+========================================
+End Become Instructor Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start Footer Section Css
-	========================================
-	*/
-	.address-col,
-	.help-col,
-	.about-col,
-	.tools-col,
-	.touch-col{
-		width: 50% !important;
-	}
-	.footer-bottom{
-		margin-top: 30px;
-	}
+/*
+========================================
+Start Footer Section Css
+========================================
+*/
+.address-col,
+.help-col,
+.about-col,
+.tools-col,
+.touch-col{
+	width: 50% !important;
+}
+.footer-bottom{
+	margin-top: 30px;
+}
 
-	/*
-	========================================
-	End Footer Section Css
-	========================================
-	*/
+/*
+========================================
+End Footer Section Css
+========================================
+*/
 }
 
 @media (max-width: 575px) {
 
-	/*
-	========================================
-	Start Reusable Components
-	========================================
-	*/
-	.px-xs-12{
-		padding-left: 12px;
-		padding-right: 12px;
-	}
-	/*
-	========================================
-	End Reusable Components
-	========================================
-	*/
+/*
+========================================
+Start Reusable Components
+========================================
+*/
+.px-xs-12{
+	padding-left: 12px;
+	padding-right: 12px;
+}
+/*
+========================================
+End Reusable Components
+========================================
+*/
 
-	/*
-	========================================
-	Start Header Section Css
-	========================================
-	*/
+/*
+========================================
+Start Header Section Css
+========================================
+*/
 
-	/*
-	====================
-	Start Hero
-	====================
-	*/
-	.hero-title h1 {
-	    font-size: 38px;
-	}
-	.hero-title p {
-	    margin-bottom: 35px;
-	}
-	.hero-content a {
-	    padding: 20px 36px;
-	    font-size: 14px;
-	}
-	/*
-	====================
-	End Hero
-	====================
-	*/
+/*
+====================
+Start Hero
+====================
+*/
+.hero-title h1 {
+    font-size: 38px;
+}
+.hero-title p {
+    margin-bottom: 35px;
+}
+.hero-content a {
+    padding: 20px 36px;
+    font-size: 14px;
+}
+/*
+====================
+End Hero
+====================
+*/
 
-	/*
-	========================================
-	End Header Section Css
-	========================================
-	*/
+/*
+========================================
+End Header Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start Course Categories Section Css
-	========================================
-	*/
-	.categories-row {
-	    margin-left: 0px;
-	    margin-right: 0px;
-	}
-	.categories-title h2{
-		font-size: 30px;
-	}
-	.categories-title h2::after {
-	    top: 50px;
-	}
-	/*
-	========================================
-	End Course Categories Section Css
-	========================================
-	*/
+/*
+========================================
+Start Course Categories Section Css
+========================================
+*/
+.categories-row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.categories-title h2{
+	font-size: 30px;
+}
+.categories-title h2::after {
+    top: 50px;
+}
+/*
+========================================
+End Course Categories Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start Top Courses  Section Css
-	========================================
-	*/
-	.top-courses-row {
-	    margin-left: 0px;
-	    margin-right: 0px;
-	}
-	.top-courses-item {
-	    min-height: auto;
-	}
-	.top-courses-specefication {
-	    padding-bottom: 40px;
-	    padding-left: 20px;
-	}
-	.top-courses-specefication p{
-	    margin-top: 15px;
-	}
-	/*
-	========================================
-	End Top Courses  Section Css
-	========================================
-	*/
+/*
+========================================
+Start Top Courses  Section Css
+========================================
+*/
+.top-courses-row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.top-courses-item {
+    min-height: auto;
+}
+.top-courses-specefication {
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+.top-courses-specefication p{
+    margin-top: 15px;
+}
+/*
+========================================
+End Top Courses  Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start Popular Course Section Css
-	========================================
-	*/
-	.popular-course-row {
-	    margin-right: 0px;
-	    margin-left: 0px;
-	}
-	.popular-course-row > * {
-	    margin-bottom: 0px;
-	}
-	/*
-	========================================
-	End Popular Course Section Css
-	========================================
-	*/
+/*
+========================================
+Start Popular Course Section Css
+========================================
+*/
+.popular-course-row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.popular-course-row > * {
+    margin-bottom: 0px;
+}
+/*
+========================================
+End Popular Course Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start Best Sell Section Css
-	========================================
-	*/
-	.best-sell-title p {
-	    width: 77%;
-	}
-	.best-sell-row {
-	    margin-right: 0px;
-	    margin-left: 0px;
-	}
-	.best-sell-item {
-	    min-height: auto;
-	}
-	.best-sell-specefication {
-	    padding-left: 24px;
-	}
-	.best-sell-specefication p{
-	    margin-top: 15px;
-	}
-	/*
-	========================================
-	End Best Sell Section Css
-	========================================
-	*/
+/*
+========================================
+Start Best Sell Section Css
+========================================
+*/
+.best-sell-title p {
+    width: 77%;
+}
+.best-sell-row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.best-sell-item {
+    min-height: auto;
+}
+.best-sell-specefication {
+    padding-left: 24px;
+}
+.best-sell-specefication p{
+    margin-top: 15px;
+}
+/*
+========================================
+End Best Sell Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start Achieve Goals Section Css
-	========================================
-	*/
-	.achieve-goals-row{
-		margin-left: 0px;
-		margin-right: 0px;
-	}
-	.achieve-goals-row > *{
-		padding-left: 12px;
-		padding-right: 12px;
-	}
-	/*
-	========================================
-	End Achieve Goals Section Css
-	========================================
-	*/
+/*
+========================================
+Start Achieve Goals Section Css
+========================================
+*/
+.achieve-goals-row{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.achieve-goals-row > *{
+	padding-left: 12px;
+	padding-right: 12px;
+}
+/*
+========================================
+End Achieve Goals Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start  clients-appriciation Section Css
-	========================================
-	*/
-	.clients-appriciation-row {
-	    margin-top: 45px;
-	    margin-right: 0px;
-	    margin-left: 0px;
+/*
+========================================
+Start  clients-appriciation Section Css
+========================================
+*/
+.clients-appriciation-row {
+    margin-top: 45px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.clients-appriciation-row > *{
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.blockquote-desc {
+    width: 98%;
+}
+.clients-appriciation-desc img {
+	top: 0;
+	left: 20px;
 	}
-	.clients-appriciation-row > *{
-		padding-left: 12px;
-		padding-right: 12px;
-	}
-	.blockquote-desc {
-	    width: 98%;
-	}
-	.clients-appriciation-desc img {
-		top: 0;
-		left: 20px;
-		}
-	/*
-	========================================
-	End  clients-appriciation Section Css
-	========================================
-	*/
+/*
+========================================
+End  clients-appriciation Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start Brand Section Css
-	========================================
-	*/
-	.brand-section {
-	    padding-top: 25px;
-	}
-	.brand-title span{
-		font-size: 25px;
-	}
-	/*
-	========================================
-	End Brand Section Css
-	========================================
-	*/
+/*
+========================================
+Start Brand Section Css
+========================================
+*/
+.brand-section {
+    padding-top: 25px;
+}
+.brand-title span{
+	font-size: 25px;
+}
+/*
+========================================
+End Brand Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start Blog Section Css
-	========================================
-	*/
-	.blog-container{
-		padding-left: 12px;
-		padding-right: 12px;
-	}
-	/*
-	========================================
-	End Blog Section Css
-	========================================
-	*/
+/*
+========================================
+Start Blog Section Css
+========================================
+*/
+.blog-container{
+	padding-left: 12px;
+	padding-right: 12px;
+}
+/*
+========================================
+End Blog Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start Become Instructor Css
-	========================================
-	*/
-	.newslatter-container{
-		padding-left: 12px;
-		padding-right: 12px;
-	}
-	.form-title h2{
-		font-size: 30px;
-	}
-	input[type="text"] {
-		margin-left: 6%;
-   	    width: 62%;
-	    background: transparent;
-	}
-	.form-area form input[type=submit] {
-	    font-size: 14px;
-	    width: 30%;
-	}
-	/*
-	========================================
-	End Become Instructor Section Css
-	========================================
-	*/
+/*
+========================================
+Start Become Instructor Css
+========================================
+*/
+.newslatter-container{
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.form-title h2{
+	font-size: 30px;
+}
+input[type="text"] {
+	margin-left: 6%;
+ 	    width: 62%;
+    background: transparent;
+}
+.form-area form input[type=submit] {
+    font-size: 14px;
+    width: 30%;
+}
+/*
+========================================
+End Become Instructor Section Css
+========================================
+*/
 
-	/*
-	========================================
-	Start Footer Section Css
-	========================================
-	*/
-	.footer-container{
-		padding-left: 12px;
-		padding-right: 12px;
-	}
-	.address-col,
-	.help-col,
-	.about-col,
-	.tools-col,
-	.touch-col,
-	.footer-bottom{
-		width: 100% !important;
-	}
-	
-	/*
-	========================================
-	End Footer Section Css
-	========================================
-	*/
+/*
+========================================
+Start Footer Section Css
+========================================
+*/
+.footer-container{
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.address-col,
+.help-col,
+.about-col,
+.tools-col,
+.touch-col,
+.footer-bottom{
+	width: 100% !important;
 }
 
+/*
+========================================
+End Footer Section Css
+========================================
+*/
+}
 
 
 
