@@ -71,8 +71,20 @@
 						</div>
 						<!-- Login Signup -->
 						<div class="login-signup d-none d-lg-block">
-							<ul>
-								<li class="d-inline-block me-35"><a href="#" class="font-opensans-600 font-size-16 font-color-f2 text-capitalize"><span class="icon-search-solid"></span></a></li>
+							<ul class="d-flex align-items-center">
+								<li class="d-inline-block me-35">
+									<div class="header-search-wrapper">
+										<span class="search-main">
+											<i class="icon-search-solid"></i>
+										</span>
+										<div class="search-form-main">
+											<form  class="search-form">
+												<input type="text" class="search-field" placeholder="Search">
+												<input type="submit" class="search-submit" value="Submit">
+											</form>
+										</div>
+									</div>
+								</li>
 								<li class="d-inline-block me-45"><a href="#" class="font-opensans-600 font-size-16 font-color-f2 text-capitalize"><span class="icon-cart-arrow-down-solid"></span></a></li>
 								<li class="d-inline-block"><a href="#" class="font-opensans-600 font-size-16 font-color-f2 text-capitalize"><span class="icon-user-solid"></span><span class="ms-10">Register</span></a></li>
 								<li class="d-inline-block mx-05"><span  class="font-opensans-600 font-size-16 font-color-f2 text-capitalize"></span></li>
@@ -80,9 +92,21 @@
 							</ul>
 						</div>
 						<!-- Seaarch And Add to Cart From Md Device -->
-						<div class="login-signup d-lg-none">
-							<ul>
-								<li class="d-inline-block me-35"><a href="#" class="font-opensans-600 font-size-16 font-color-f2 text-capitalize"><span class="icon-search-solid"></span></a></li>
+						<div class="login-signup d-lg-none  ms-auto ms-lg-0">
+							<ul class="d-flex align-items-center">
+								<li class="d-inline-block me-35">
+									<div class="header-search-wrapper">
+										<span class="search-main">
+											<i class="icon-search-solid"></i>
+										</span>
+										<div class="search-form-main">
+											<form  class="search-form">
+												<input type="text" class="search-field" placeholder="Search">
+												<input type="submit" class="search-submit" value="Submit">
+											</form>
+										</div>
+									</div>
+								</li>
 								<li class="d-inline-block me-45"><a href="#" class="font-opensans-600 font-size-16 font-color-f2 text-capitalize"><span class="icon-cart-arrow-down-solid"></span></a></li>
 							</ul>
 						</div>
@@ -1139,14 +1163,14 @@
 			        el: '.swiper-pagination',
 			        clickable: true,
 			      },
-			       autoplay: {
-			        delay: 3500,
-			        disableOnInteraction: false,
-      				},
-      				navigation: {
-			        nextEl: '.swiper-button-next',
-			        prevEl: '.swiper-button-prev',
-			      },
+			      //  autoplay: {
+			      //   delay: 3500,
+			      //   disableOnInteraction: false,
+      			// 	},
+      			// 	navigation: {
+			      //   nextEl: '.swiper-button-next',
+			      //   prevEl: '.swiper-button-prev',
+			      // },
 			      breakpoints: {
 					
 					// when window width is >= 0px

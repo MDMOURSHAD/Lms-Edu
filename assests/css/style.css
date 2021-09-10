@@ -390,6 +390,103 @@ End Preloader
 */
 
 /*
+========================================
+Start Header Section Css
+========================================
+*/
+
+.nav {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+/*
+=======================
+Start Toggle Seach Bar
+=======================
+*/
+
+.header-search-wrapper {
+  position: relative;
+  float: right;
+  text-align: center;
+}
+
+.header-search-wrapper .search-main {
+  line-height: 45px;
+  padding: 0px 20px;
+  color: #fff;
+  font-size: 16px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.header-search-wrapper .search-form-main {
+  position: absolute;
+  top: 160px;
+  right: 0px;
+  width: 350px;
+  box-shadow: 1px 1px 7px rgb(0 0 0 / 15%);
+  border-top: 3px solid #dd0643;;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.active-class {
+  visibility: visible !important;
+  opacity: 1 !important;
+  top: 65px !important;
+}
+
+.search-form-main:after {
+  position: absolute;
+  top: 0;
+  content: "";
+  right: 0;
+  border: 15px solid transparent;
+  border-top: 0px;
+  border-bottom: 15px solid #dd0643;;
+  width: 0;
+  transform: translate(-42%, -119%);
+}
+
+.search-form-main .search-form {
+  padding: 20px;
+  overflow: hidden;
+  background: #f1faee;
+}
+
+.search-form .search-field {
+  float: left;
+  width: 75%;
+  margin-left: 0px !important;
+  font-size: 17px;
+  padding: 16px 14px;
+}
+
+.search-form .search-submit {
+  float: right;
+  width: 25%;
+  border-radius: 0;
+  display: inline-block;
+  font-size: 17px;
+  border: 0;
+  cursor: pointer;
+  background: #dd0643;
+  color: #fff;
+  outline: 0;
+  text-align: center;
+  padding: 16px 10px;
+}
+
+/*
+=======================
+End Toggle Seach Bar
+=======================
+*/
+
+/*
 =====================
 Start Hamburger Menu
 =====================
@@ -534,16 +631,6 @@ Start Sticky Menu
 End Sticky Menu
 ===================================
 */
-/*
-========================================
-Start Header Section Css
-========================================
-*/
-
-.nav {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-}
 
 /*
 ====================
@@ -1007,6 +1094,10 @@ Start Blog Section Css
 .blog-seciton {
   padding-top: 95px;
   padding-bottom: 100px;
+}
+
+.blog-box:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .blog-title p {
