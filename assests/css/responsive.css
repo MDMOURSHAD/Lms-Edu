@@ -146,6 +146,19 @@ End Best Sell Section Css
 
 /*
 ========================================
+Start Brand Section Css
+========================================
+*/
+.brand-swiper{
+  width: 85%;
+}
+/*
+========================================
+Start Brand Section Css
+========================================
+*/
+/*
+========================================
 Start Footer Section Css
 ========================================
 */
@@ -760,12 +773,30 @@ End Reusable Components
 Start Header Section Css
 ========================================
 */
+.logo img{
+    width: 100px;
+}
 .login-signup li:last-child{
     margin-right: 20px !important;
 }
 .login-signup li:first-child{
     margin-right: 5px !important;
 }
+
+/*
+=======================
+Start Toggle Seach Bar
+=======================
+*/
+.search-form-main [type=text]{
+    background: #fff !important;
+}
+
+/*
+=======================
+End Toggle Seach Bar
+=======================
+*/
 /*
 ====================
 Start Hero
@@ -785,21 +816,6 @@ Start Hero
 ====================
 End Hero
 ====================
-*/
-
-/*
-===================================
-Start Sticky Menu
-===================================
-*/
-.sticky {
-    padding-top: 12px !important;
-    padding-bottom: 12px !important;
-}
-/*
-===================================
-End Sticky Menu
-===================================
 */
 
 /*

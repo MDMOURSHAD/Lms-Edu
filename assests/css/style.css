@@ -1,9 +1,8 @@
-
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -275,15 +274,15 @@ Start Reusable Components
   position: absolute;
   width: 100%;
   -webkit-transform: scaleX(0);
-      -ms-transform: scaleX(0);
-          transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
   height: 2px;
   bottom: -3px;
   left: 0;
   background-color: #f2f7ff;
   -webkit-transform-origin: bottom right;
-      -ms-transform-origin: bottom right;
-          transform-origin: bottom right;
+  -ms-transform-origin: bottom right;
+  transform-origin: bottom right;
   -webkit-transition: -webkit-transform 0.25s ease-out;
   transition: -webkit-transform 0.25s ease-out;
   -o-transition: transform 0.25s ease-out;
@@ -293,11 +292,11 @@ Start Reusable Components
 
 .hover-underline-animation:hover:after {
   -webkit-transform: scaleX(1);
-      -ms-transform: scaleX(1);
-          transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
   -webkit-transform-origin: bottom left;
-      -ms-transform-origin: bottom left;
-          transform-origin: bottom left;
+  -ms-transform-origin: bottom left;
+  transform-origin: bottom left;
 }
 
 /* hover Underline Effects */
@@ -324,20 +323,23 @@ Start Reusable Components
     transform: scale(1.1);
   }
 }
+
 @keyframes hvr-pulse-grow {
   to {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
 }
+
 .hvr-pulse-grow {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
+
 .hvr-pulse-grow:hover,
 .hvr-pulse-grow:focus,
 .hvr-pulse-grow:active {
@@ -374,11 +376,11 @@ Start Preloader
   position: fixed;
   z-index: 99999;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 100%;
   background: #fff;
 }
@@ -397,7 +399,7 @@ Start Header Section Css
 
 .nav {
   -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 /*
@@ -427,7 +429,8 @@ Start Toggle Seach Bar
   right: 0px;
   width: 350px;
   box-shadow: 1px 1px 7px rgb(0 0 0 / 15%);
-  border-top: 3px solid #dd0643;;
+  border-top: 3px solid #dd0643;
+  ;
   visibility: hidden;
   opacity: 0;
   transition: all 1s ease-in-out;
@@ -446,7 +449,8 @@ Start Toggle Seach Bar
   right: 0;
   border: 15px solid transparent;
   border-top: 0px;
-  border-bottom: 15px solid #dd0643;;
+  border-bottom: 15px solid #dd0643;
+  ;
   width: 0;
   transform: translate(-42%, -119%);
 }
@@ -511,11 +515,11 @@ Start Hamburger Menu
   top: 75px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: #ab0534;
   max-height: 0;
   overflow: hidden;
@@ -570,15 +574,15 @@ Start Hamburger Menu
 .nav-toggler span:before {
   content: "";
   -webkit-transform: translateY(-9px);
-      -ms-transform: translateY(-9px);
-          transform: translateY(-9px);
+  -ms-transform: translateY(-9px);
+  transform: translateY(-9px);
 }
 
 .nav-toggler span:after {
   content: "";
   -webkit-transform: translateY(6px);
-      -ms-transform: translateY(6px);
-          transform: translateY(6px);
+  -ms-transform: translateY(6px);
+  transform: translateY(6px);
 }
 
 .nav-toggler.toggler-open span {
@@ -587,14 +591,14 @@ Start Hamburger Menu
 
 .nav-toggler.toggler-open span:before {
   -webkit-transform: translateY(0px) rotate(45deg);
-      -ms-transform: translateY(0px) rotate(45deg);
-          transform: translateY(0px) rotate(45deg);
+  -ms-transform: translateY(0px) rotate(45deg);
+  transform: translateY(0px) rotate(45deg);
 }
 
 .nav-toggler.toggler-open span:after {
   -webkit-transform: translateY(-3px) rotate(-45deg);
-      -ms-transform: translateY(-3px) rotate(-45deg);
-          transform: translateY(-3px) rotate(-45deg);
+  -ms-transform: translateY(-3px) rotate(-45deg);
+  transform: translateY(-3px) rotate(-45deg);
 }
 
 /* nav-toggler css End */
@@ -641,7 +645,7 @@ Start Hero
 .hero-content a {
   padding: 28px 60px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   border-radius: 30px;
 }
 
@@ -674,8 +678,8 @@ Start Course Categories Section Css
   top: 62px;
   left: 50%;
   -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
   width: 165px;
   height: 2px;
   background: #020202;
@@ -701,6 +705,7 @@ Start Course Categories Section Css
 .categories-list:hover h3 {
   color: #f2f7ff;
 }
+
 .categories-list:hover .top-border,
 .categories-list:hover .bottom-border,
 .categories-list:hover .left-border,
@@ -715,8 +720,8 @@ Start Course Categories Section Css
   background: #a6a6a6;
   left: 50%;
   -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .top-border {
@@ -734,8 +739,8 @@ Start Course Categories Section Css
   background: #a6a6a6;
   top: 50%;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .left-border {
@@ -809,7 +814,7 @@ Start Top Courses  Section Css
 
 .shadow-hvr:hover {
   -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px !important;
-          box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px !important;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px !important;
 }
 
 .overlay {
@@ -858,25 +863,51 @@ Start Popular Course Section Css
   margin-left: -15px;
 }
 
+.popular-course-title p {
+  width: 31%;
+  margin-top: 18px;
+}
+
 .popular-course-row > * {
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 30px;
 }
 
-.popular-course-title p {
-  width: 31%;
-  margin-top: 18px;
+.img-one,
+.img-two,
+.img-three {
+  background-size: cover !important;
+  background-position: center !important;
+  position: relative !important;
+  background-repeat: no-repeat !important;
+  display: flex !important;
+  padding-top: 26.60% !important;
+  border-radius: 3px;
 }
 
-.popular-course-img h2 {
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+.img-one {
+  background: url("../images/popular-course1.png");
 }
 
+.img-two {
+  background: url("../images/popular-course2.png");
+}
+
+.img-three {
+  background: url("../images/popular-course3.png");
+}
+
+.popular-text {
+  position: absolute;
+  top: 0;
+  display: flex;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+}
 /*
 ========================================
 End Popular Course Section Css
@@ -1051,8 +1082,8 @@ Start  clients-appriciation Section Css
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   border: 5px solid #fff;
   height: 60px;
   width: 60px;
@@ -1077,7 +1108,18 @@ Start Brand Section Css
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
   content: "prev";
-  font-size: 30px;
+  font-size: 20px;
+  color: #BABCBC;
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+  font-size: 20px;
+  content: 'next';
+  color: #BABCBC;
+}
+
+.brand-swiper {
+  width: 975px;
 }
 /*
 ========================================
@@ -1096,10 +1138,10 @@ Start Blog Section Css
   padding-bottom: 100px;
 }
 
-.blog-box:hover{
+/*.blog-box:hover{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
+*/
 .blog-title p {
   width: 31%;
   margin-top: 18px;
@@ -1129,6 +1171,18 @@ Start Blog Section Css
   margin-bottom: 15px;
 }
 
+.swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+  background: transparent;
+  opacity: 1;
+  border: 2px solid #999999;
+}
+
+.swiper-pagination-bullet-active {
+  background: #4D4D4D;
+  transform: scale(1);
+}
 /*
 ========================================
 End Blog Section Css
@@ -1282,41 +1336,49 @@ Start Scroll to Top
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
   }
+
   50% {
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
   }
+
   100% {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
   }
 }
+
 @keyframes hvr-bob {
   0% {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
   }
+
   50% {
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
   }
+
   100% {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
   }
 }
+
 @-webkit-keyframes hvr-bob-float {
   100% {
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
   }
 }
+
 @keyframes hvr-bob-float {
   100% {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
   }
 }
+
 .hvr-bob {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -1324,6 +1386,7 @@ Start Scroll to Top
   -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
+
 .hvr-bob:hover,
 .hvr-bob:focus,
 .hvr-bob:active {
