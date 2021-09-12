@@ -620,7 +620,6 @@ Start Sticky Menu
   left: 0;
   z-index: 99999;
   right: 0;
-  overflow-x: hidden;
   background-color: #ab0534;
   top: 0;
   width: 100%;
