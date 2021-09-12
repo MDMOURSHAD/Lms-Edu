@@ -1149,6 +1149,7 @@ Start Blog Section Css
 
 .blog-box {
   border: 2px solid #f0f0f0 !important;
+   min-height: 491px;
 }
 
 .blog-box:hover .border-hvr {
