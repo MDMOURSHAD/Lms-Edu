@@ -392,12 +392,6 @@ End Preloader
 Start Header Section Css
 ========================================
 */
-
-.nav {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-}
-
 /*
 =======================
 Start Toggle Seach Bar
@@ -537,7 +531,7 @@ Start Hamburger Menu
 }
 
 .site-navbar ul li a:hover {
-  background: rgba(255, 255, 255, 0.1);
+  /*background: rgba(255, 255, 255, 0.1);*/
 }
 
 .site-navbar ul.open {
@@ -622,6 +616,8 @@ Start Sticky Menu
   padding: 12px 0 !important;
   -webkit-transition: 0.4s ease-in;
   -o-transition: 0.4s ease-in;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   transition: 0.4s ease-in;
   -webkit-transition: 0.4s linear;
 }
